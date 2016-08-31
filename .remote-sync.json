@@ -1,0 +1,16 @@
+{
+  "transport": "scp",
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": true,
+  "hostname": "203.150.102.186",
+  "port": "22",
+  "target": "/home/ubuntuserver/tem/cu_innovation_hub",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ubuntuserver",
+  "watch": [],
+  "password": "zjkoC]6p"
+}

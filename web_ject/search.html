@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ALTER TABLE `table1` ADD `lastUpdated` TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ; -->
+
+<head>
+  <script src="/jquery_min_js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/bootstrap_min_js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="/scrollreveal_min_js"></script>
+  <script src="/jquery.magnific-popup.min.js"></script>
+
+  <!-- Theme JavaScript -->
+  <script src="/creative.min.js"></script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CU Innocation Hub</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/bootstrap_min_css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font_awesome_min_css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="/magnific_popup_css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="/creative_min_css" rel="stylesheet">
+
+</head>
+
+<nav >
+
+<br>
+
+
+
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        </div>
+
+        <div class="row">
+              <div class="col-xs-4"></div>
+              <div class="col-xs-4"></div>
+            <div class="col-xs-4">
+              <div class="dropdown">
+                <label>Search : </label>
+                <button id="d" class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Field
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a onclick="xname()">Product</a></li>
+                  <li><a onclick="xown()">Source</a></li>
+                  <li><a onclick="xfac()">Cluster</a></li>
+                  <li><a onclick="xclu()">Owner</a></li>
+                  <li><a onclick="xdet()">Faculty</a></li>
+                  <li><a onclick="xrem()">Remark</a></li>
+                  <li><a onclick="xdate()">Date</a></li>
+                </ul>
+                <input id="input" type="text" placeholder="Search . . .">
+                <button type="submit" class="btn btn-primary" onclick="search()">Search</button>
+
+              </div>
+
+          </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+    <body background="/bg5" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" width="100%">
+
+
+      <!-- <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4"></div>
+          <div class="col-xs-4">
+           <input type="text" placeholder="Search . . .">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </div>
+      </div> -->
+
+      <section>
+        <div class="header-content">
+            <div class="header-content-inner">
+
+            </div>
+          </div>
+
+      </div>
+
+      </section>
+
+      <div class="col-xs-3"></div>
+      <div class="col-xs-8">
+      <div class="col-xs-12" style="overflow:scroll;">
+      <!-- <table class="col-xs-12"  border="1|1" >
+        <tr>
+          <td>Product</td>
+          <td>Source</td>
+          <td>Cluster</td>
+          <td>Owner</td>
+          <td>Faculty</td>
+          <td>Remark</td>
+          <td>Date</td>
+        </tr>
+      </table> -->
+      </div>
+      <div class="col-xs-12" style="overflow:scroll; height:450px;">
+      <table class="col-xs-12" id="myTable" border="1|1">
+        <tr>
+          <td>Product</td>
+          <td>Source</td>
+          <td>Cluster</td>
+          <td>Owner</td>
+          <td>Faculty</td>
+          <td>Remark</td>
+          <td>Date</td>
+        </tr>
+      </table>
+      </div>
+      </div>
+
+    <script>
+    var d = document.getElementById("d");
+    function xname(){
+      d.innerHTML = "Product";
+    }
+    function xown(){
+      d.innerHTML = "Source";
+    }
+    function xfac(){
+      d.innerHTML = "Cluster";
+    }
+    function xclu(){
+      d.innerHTML = "Owner";
+    }
+    function xdet(){
+      d.innerHTML = "Faculty";
+    }
+    function xrem(){
+      d.innerHTML = "Remark";
+    }
+    function xdate(){
+      d.innerHTML = "Date";
+    }
+    function search(){
+      var i = document.getElementById("input");
+      console.log("search");
+      console.log("t"+d.innerHTML+"/s"+i.value)
+      var x = $.get('/DB_searchz/'+d.innerHTML+"/"+i.value, function(data) {
+          if(data.length==0) window.location="/se";
+          console.log("asd"+data);
+          var table = document.getElementById("myTable");
+          console.log("HH"+table.rows.length);
+          console.log("HH"+data.length);
+          for(var j=(table.rows.length)-1 ; j>=1 ; j--){
+            console.log(j);
+            table.deleteRow(j);
+          }
+          for(var i=0 ; i<data.length ; i++){
+            var x = data[i];
+            var row = table.insertRow(i+1);
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+            var cell3 = row.insertCell(2);
+            var cell4 = row.insertCell(3);
+            var cell5 = row.insertCell(4);
+            var cell6 = row.insertCell(5);
+            var cell7 = row.insertCell(6);
+            cell1.innerHTML = x.Product;
+            cell2.innerHTML = x.Source;
+            cell3.innerHTML = x.Cluster;
+            cell4.innerHTML = x.Owner;
+            cell5.innerHTML = x.Faculty;
+            cell6.innerHTML = x.Remark;
+            cell7.innerHTML = x.Date;
+          }
+        });
+        console.log("Ss"+x);
+    }
+    $.get('/DB_search', function(data) {
+          // datainit = data;
+          console.log("sadsad"+data.length);
+          for(var i=0 ; i<data.length ; i++){
+            var table = document.getElementById("myTable");
+            var x = data[i];
+            if(x.Product!=""){
+            var row = table.insertRow(i+1);
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+            var cell3 = row.insertCell(2);
+            var cell4 = row.insertCell(3);
+            var cell5 = row.insertCell(4);
+            var cell6 = row.insertCell(5);
+            var cell7 = row.insertCell(6);
+
+              cell1.innerHTML = x.Product;
+              cell2.innerHTML = x.Source;
+              cell3.innerHTML = x.Cluster;
+              cell4.innerHTML = x.Owner;
+              cell5.innerHTML = x.Faculty;
+              cell6.innerHTML = x.Remark;
+              cell7.innerHTML = x.Date;
+            }
+          }
+    });
+
+    </script>
+
+    </body>
+
+    <!-- jQuery -->
+
+
+<!-- </body> -->
+
+</html>

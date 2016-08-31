@@ -1,0 +1,23 @@
+{
+  "name": "kundjansaith",
+  "version": "1.0.0",
+  "description": "cu innovation hub",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Kundjanasith/cu_innovation_hub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Kundjanasith/cu_innovation_hub/issues"
+  },
+  "homepage": "https://gitlab.com/Kundjanasith/cu_innovation_hub#README"
+}
