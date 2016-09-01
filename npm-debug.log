@@ -1,0 +1,2883 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'exec-sync' ]
+2 info using npm@3.8.7
+3 info using node@v4.4.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData exec-sync
+8 silly fetchNamedPackageData exec-sync
+9 silly mapToRegistry name exec-sync
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'exec-sync',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'exec-sync',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/exec-sync
+14 verbose request uri https://registry.npmjs.org/exec-sync
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 12:34:20 PM
+17 verbose request id dde6670dac1e1161
+18 verbose etag "BDW87STD604EIENTOM7XZL2CV"
+19 http request GET https://registry.npmjs.org/exec-sync
+20 http 304 https://registry.npmjs.org/exec-sync
+21 verbose headers { date: 'Thu, 01 Sep 2016 05:34:21 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"BDW87STD604EIENTOM7XZL2CV"',
+21 verbose headers   age: '107',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1472708061.101215,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 01 Sep 2016 05:34:21 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"BDW87STD604EIENTOM7XZL2CV"',
+22 silly get     age: '107',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-sin6926-SIN',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1472708061.101215,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/exec-sync from cache
+24 verbose get saving exec-sync to /Users/exceed/.npm/registry.npmjs.org/exec-sync/.cache.json
+25 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule exec-sync@0.1.6 checking installable status
+39 silly cache add args [ 'exec-sync', null ]
+40 verbose cache add spec exec-sync
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'exec-sync',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'exec-sync',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed exec-sync@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for exec-sync
+44 info addNameTag [ 'exec-sync', 'latest' ]
+45 silly mapToRegistry name exec-sync
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'exec-sync',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'exec-sync',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/exec-sync
+50 verbose addNameTag registry:https://registry.npmjs.org/exec-sync not in flight; fetching
+51 verbose get https://registry.npmjs.org/exec-sync not expired, no request
+52 silly addNameTag next cb for exec-sync with tag latest
+53 silly addNamed exec-sync@0.1.6
+54 verbose addNamed "0.1.6" is a plain semver version for exec-sync
+55 silly cache afterAdd exec-sync@0.1.6
+56 verbose afterAdd /Users/exceed/.npm/exec-sync/0.1.6/package/package.json not in flight; writing
+57 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /Users/exceed/.npm/exec-sync/0.1.6/package/package.json written
+59 silly fetchNamedPackageData ffi
+60 silly mapToRegistry name ffi
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'ffi',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   name: 'ffi',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/ffi
+65 verbose request uri https://registry.npmjs.org/ffi
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 12:34:21 PM
+68 verbose etag "1MNQQBXZT3S0UJH6AL0FK6TIR"
+69 http request GET https://registry.npmjs.org/ffi
+70 http 304 https://registry.npmjs.org/ffi
+71 verbose headers { date: 'Thu, 01 Sep 2016 05:34:21 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   'cache-control': 'max-age=300',
+71 verbose headers   etag: '"1MNQQBXZT3S0UJH6AL0FK6TIR"',
+71 verbose headers   age: '107',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+71 verbose headers   'x-cache': 'HIT',
+71 verbose headers   'x-cache-hits': '2',
+71 verbose headers   'x-timer': 'S1472708061.459823,VS0,VE0',
+71 verbose headers   vary: 'Accept-Encoding' }
+72 silly get cb [ 304,
+72 silly get   { date: 'Thu, 01 Sep 2016 05:34:21 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     'cache-control': 'max-age=300',
+72 silly get     etag: '"1MNQQBXZT3S0UJH6AL0FK6TIR"',
+72 silly get     age: '107',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-sin6926-SIN',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '2',
+72 silly get     'x-timer': 'S1472708061.459823,VS0,VE0',
+72 silly get     vary: 'Accept-Encoding' } ]
+73 verbose etag https://registry.npmjs.org/ffi from cache
+74 verbose get saving ffi to /Users/exceed/.npm/registry.npmjs.org/ffi/.cache.json
+75 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+76 silly resolveWithNewModule ffi@1.2.5 checking installable status
+77 silly cache add args [ 'ffi@=1.2.5', null ]
+78 verbose cache add spec ffi@=1.2.5
+79 silly cache add parsed spec Result {
+79 silly cache add   raw: 'ffi@=1.2.5',
+79 silly cache add   scope: null,
+79 silly cache add   name: 'ffi',
+79 silly cache add   rawSpec: '=1.2.5',
+79 silly cache add   spec: '1.2.5',
+79 silly cache add   type: 'version' }
+80 silly addNamed ffi@1.2.5
+81 verbose addNamed "1.2.5" is a plain semver version for ffi
+82 silly mapToRegistry name ffi
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'ffi',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   name: 'ffi',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npmjs.org/ffi
+87 verbose addNameVersion registry:https://registry.npmjs.org/ffi not in flight; fetching
+88 verbose get https://registry.npmjs.org/ffi not expired, no request
+89 silly cache afterAdd ffi@1.2.5
+90 verbose afterAdd /Users/exceed/.npm/ffi/1.2.5/package/package.json not in flight; writing
+91 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+92 verbose afterAdd /Users/exceed/.npm/ffi/1.2.5/package/package.json written
+93 silly fetchNamedPackageData bindings
+94 silly mapToRegistry name bindings
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'bindings',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   name: 'bindings',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/bindings
+99 silly fetchNamedPackageData ref
+100 silly mapToRegistry name ref
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry data Result {
+103 silly mapToRegistry   raw: 'ref',
+103 silly mapToRegistry   scope: null,
+103 silly mapToRegistry   name: 'ref',
+103 silly mapToRegistry   rawSpec: '',
+103 silly mapToRegistry   spec: 'latest',
+103 silly mapToRegistry   type: 'tag' }
+104 silly mapToRegistry uri https://registry.npmjs.org/ref
+105 silly fetchNamedPackageData ref-struct
+106 silly mapToRegistry name ref-struct
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry data Result {
+109 silly mapToRegistry   raw: 'ref-struct',
+109 silly mapToRegistry   scope: null,
+109 silly mapToRegistry   name: 'ref-struct',
+109 silly mapToRegistry   rawSpec: '',
+109 silly mapToRegistry   spec: 'latest',
+109 silly mapToRegistry   type: 'tag' }
+110 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+111 verbose request uri https://registry.npmjs.org/bindings
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 12:34:22 PM
+114 verbose etag "33TX4J3DNTGF7K41ZUV6OA182"
+115 http request GET https://registry.npmjs.org/bindings
+116 verbose request uri https://registry.npmjs.org/ref-struct
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 12:34:22 PM
+119 verbose etag "8W9S9BW7YNRABMNU32UDZDTKJ"
+120 http request GET https://registry.npmjs.org/ref-struct
+121 verbose request uri https://registry.npmjs.org/ref
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 12:34:22 PM
+124 verbose etag "2U5YWC5QYD6MZRKVTOQU9S2OX"
+125 http request GET https://registry.npmjs.org/ref
+126 http 304 https://registry.npmjs.org/bindings
+127 verbose headers { date: 'Thu, 01 Sep 2016 05:34:21 GMT',
+127 verbose headers   via: '1.1 varnish',
+127 verbose headers   'cache-control': 'max-age=300',
+127 verbose headers   etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+127 verbose headers   age: '137',
+127 verbose headers   connection: 'keep-alive',
+127 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+127 verbose headers   'x-cache': 'HIT',
+127 verbose headers   'x-cache-hits': '2',
+127 verbose headers   'x-timer': 'S1472708061.873338,VS0,VE0',
+127 verbose headers   vary: 'Accept-Encoding' }
+128 silly get cb [ 304,
+128 silly get   { date: 'Thu, 01 Sep 2016 05:34:21 GMT',
+128 silly get     via: '1.1 varnish',
+128 silly get     'cache-control': 'max-age=300',
+128 silly get     etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+128 silly get     age: '137',
+128 silly get     connection: 'keep-alive',
+128 silly get     'x-served-by': 'cache-sin6926-SIN',
+128 silly get     'x-cache': 'HIT',
+128 silly get     'x-cache-hits': '2',
+128 silly get     'x-timer': 'S1472708061.873338,VS0,VE0',
+128 silly get     vary: 'Accept-Encoding' } ]
+129 verbose etag https://registry.npmjs.org/bindings from cache
+130 verbose get saving bindings to /Users/exceed/.npm/registry.npmjs.org/bindings/.cache.json
+131 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+132 silly resolveWithNewModule bindings@1.2.1 checking installable status
+133 silly cache add args [ 'bindings@*', null ]
+134 verbose cache add spec bindings@*
+135 silly cache add parsed spec Result {
+135 silly cache add   raw: 'bindings@*',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'bindings',
+135 silly cache add   rawSpec: '*',
+135 silly cache add   spec: '*',
+135 silly cache add   type: 'range' }
+136 silly addNamed bindings@*
+137 verbose addNamed "*" is a valid semver range for bindings
+138 silly addNameRange { name: 'bindings', range: '*', hasData: false }
+139 silly mapToRegistry name bindings
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'bindings',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   name: 'bindings',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri https://registry.npmjs.org/bindings
+144 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+145 verbose get https://registry.npmjs.org/bindings not expired, no request
+146 silly addNameRange number 2 { name: 'bindings', range: '*', hasData: true }
+147 silly addNameRange versions [ 'bindings',
+147 silly addNameRange   [ '0.0.1',
+147 silly addNameRange     '0.1.0',
+147 silly addNameRange     '0.1.1',
+147 silly addNameRange     '0.2.0',
+147 silly addNameRange     '0.2.1',
+147 silly addNameRange     '0.2.2',
+147 silly addNameRange     '0.2.3',
+147 silly addNameRange     '0.2.4',
+147 silly addNameRange     '0.3.0',
+147 silly addNameRange     '0.4.0',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '1.1.0',
+147 silly addNameRange     '1.1.1',
+147 silly addNameRange     '1.2.0',
+147 silly addNameRange     '1.2.1' ] ]
+148 silly addNamed bindings@1.2.1
+149 verbose addNamed "1.2.1" is a plain semver version for bindings
+150 silly cache afterAdd bindings@1.2.1
+151 verbose afterAdd /Users/exceed/.npm/bindings/1.2.1/package/package.json not in flight; writing
+152 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+153 verbose afterAdd /Users/exceed/.npm/bindings/1.2.1/package/package.json written
+154 http 304 https://registry.npmjs.org/ref-struct
+155 verbose headers { date: 'Thu, 01 Sep 2016 05:34:22 GMT',
+155 verbose headers   via: '1.1 varnish',
+155 verbose headers   'cache-control': 'max-age=300',
+155 verbose headers   etag: '"8W9S9BW7YNRABMNU32UDZDTKJ"',
+155 verbose headers   age: '107',
+155 verbose headers   connection: 'keep-alive',
+155 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+155 verbose headers   'x-cache': 'HIT',
+155 verbose headers   'x-cache-hits': '1',
+155 verbose headers   'x-timer': 'S1472708062.070625,VS0,VE0',
+155 verbose headers   vary: 'Accept-Encoding' }
+156 silly get cb [ 304,
+156 silly get   { date: 'Thu, 01 Sep 2016 05:34:22 GMT',
+156 silly get     via: '1.1 varnish',
+156 silly get     'cache-control': 'max-age=300',
+156 silly get     etag: '"8W9S9BW7YNRABMNU32UDZDTKJ"',
+156 silly get     age: '107',
+156 silly get     connection: 'keep-alive',
+156 silly get     'x-served-by': 'cache-sin6922-SIN',
+156 silly get     'x-cache': 'HIT',
+156 silly get     'x-cache-hits': '1',
+156 silly get     'x-timer': 'S1472708062.070625,VS0,VE0',
+156 silly get     vary: 'Accept-Encoding' } ]
+157 verbose etag https://registry.npmjs.org/ref-struct from cache
+158 verbose get saving ref-struct to /Users/exceed/.npm/registry.npmjs.org/ref-struct/.cache.json
+159 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+160 http 304 https://registry.npmjs.org/ref
+161 verbose headers { date: 'Thu, 01 Sep 2016 05:34:22 GMT',
+161 verbose headers   via: '1.1 varnish',
+161 verbose headers   'cache-control': 'max-age=300',
+161 verbose headers   etag: '"2U5YWC5QYD6MZRKVTOQU9S2OX"',
+161 verbose headers   age: '107',
+161 verbose headers   connection: 'keep-alive',
+161 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+161 verbose headers   'x-cache': 'HIT',
+161 verbose headers   'x-cache-hits': '1',
+161 verbose headers   'x-timer': 'S1472708062.070916,VS0,VE0',
+161 verbose headers   vary: 'Accept-Encoding' }
+162 silly get cb [ 304,
+162 silly get   { date: 'Thu, 01 Sep 2016 05:34:22 GMT',
+162 silly get     via: '1.1 varnish',
+162 silly get     'cache-control': 'max-age=300',
+162 silly get     etag: '"2U5YWC5QYD6MZRKVTOQU9S2OX"',
+162 silly get     age: '107',
+162 silly get     connection: 'keep-alive',
+162 silly get     'x-served-by': 'cache-sin6924-SIN',
+162 silly get     'x-cache': 'HIT',
+162 silly get     'x-cache-hits': '1',
+162 silly get     'x-timer': 'S1472708062.070916,VS0,VE0',
+162 silly get     vary: 'Accept-Encoding' } ]
+163 verbose etag https://registry.npmjs.org/ref from cache
+164 verbose get saving ref to /Users/exceed/.npm/registry.npmjs.org/ref/.cache.json
+165 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+166 silly resolveWithNewModule ref@1.3.2 checking installable status
+167 silly cache add args [ 'ref@*', null ]
+168 verbose cache add spec ref@*
+169 silly cache add parsed spec Result {
+169 silly cache add   raw: 'ref@*',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'ref',
+169 silly cache add   rawSpec: '*',
+169 silly cache add   spec: '*',
+169 silly cache add   type: 'range' }
+170 silly addNamed ref@*
+171 verbose addNamed "*" is a valid semver range for ref
+172 silly addNameRange { name: 'ref', range: '*', hasData: false }
+173 silly mapToRegistry name ref
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'ref',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   name: 'ref',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri https://registry.npmjs.org/ref
+178 verbose addNameRange registry:https://registry.npmjs.org/ref not in flight; fetching
+179 verbose get https://registry.npmjs.org/ref not expired, no request
+180 silly addNameRange number 2 { name: 'ref', range: '*', hasData: true }
+181 silly addNameRange versions [ 'ref',
+181 silly addNameRange   [ '0.0.1',
+181 silly addNameRange     '0.0.2',
+181 silly addNameRange     '0.0.3',
+181 silly addNameRange     '0.0.4',
+181 silly addNameRange     '0.0.5',
+181 silly addNameRange     '0.0.6',
+181 silly addNameRange     '0.0.7',
+181 silly addNameRange     '0.0.8',
+181 silly addNameRange     '0.0.9',
+181 silly addNameRange     '0.0.10',
+181 silly addNameRange     '0.0.11',
+181 silly addNameRange     '0.0.12',
+181 silly addNameRange     '0.0.13',
+181 silly addNameRange     '0.0.14',
+181 silly addNameRange     '0.0.15',
+181 silly addNameRange     '0.0.16',
+181 silly addNameRange     '0.0.17',
+181 silly addNameRange     '0.0.18',
+181 silly addNameRange     '0.0.19',
+181 silly addNameRange     '0.0.20',
+181 silly addNameRange     '0.1.0',
+181 silly addNameRange     '0.1.1',
+181 silly addNameRange     '0.1.2',
+181 silly addNameRange     '0.1.3',
+181 silly addNameRange     '0.2.0',
+181 silly addNameRange     '0.2.1',
+181 silly addNameRange     '0.2.2',
+181 silly addNameRange     '0.2.3',
+181 silly addNameRange     '0.3.0',
+181 silly addNameRange     '0.3.1',
+181 silly addNameRange     '0.3.2',
+181 silly addNameRange     '0.3.3',
+181 silly addNameRange     '0.3.4',
+181 silly addNameRange     '0.3.5',
+181 silly addNameRange     '1.0.0',
+181 silly addNameRange     '1.0.1',
+181 silly addNameRange     '1.0.2',
+181 silly addNameRange     '1.1.0',
+181 silly addNameRange     '1.1.1',
+181 silly addNameRange     '1.1.2',
+181 silly addNameRange     '1.1.3',
+181 silly addNameRange     '1.2.0',
+181 silly addNameRange     '1.3.0',
+181 silly addNameRange     '1.3.1',
+181 silly addNameRange     '1.3.2' ] ]
+182 silly addNamed ref@1.3.2
+183 verbose addNamed "1.3.2" is a plain semver version for ref
+184 silly resolveWithNewModule ref-struct@1.1.0 checking installable status
+185 silly cache add args [ 'ref-struct@*', null ]
+186 verbose cache add spec ref-struct@*
+187 silly cache add parsed spec Result {
+187 silly cache add   raw: 'ref-struct@*',
+187 silly cache add   scope: null,
+187 silly cache add   name: 'ref-struct',
+187 silly cache add   rawSpec: '*',
+187 silly cache add   spec: '*',
+187 silly cache add   type: 'range' }
+188 silly addNamed ref-struct@*
+189 verbose addNamed "*" is a valid semver range for ref-struct
+190 silly addNameRange { name: 'ref-struct', range: '*', hasData: false }
+191 silly mapToRegistry name ref-struct
+192 silly mapToRegistry using default registry
+193 silly mapToRegistry registry https://registry.npmjs.org/
+194 silly mapToRegistry data Result {
+194 silly mapToRegistry   raw: 'ref-struct',
+194 silly mapToRegistry   scope: null,
+194 silly mapToRegistry   name: 'ref-struct',
+194 silly mapToRegistry   rawSpec: '',
+194 silly mapToRegistry   spec: 'latest',
+194 silly mapToRegistry   type: 'tag' }
+195 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+196 verbose addNameRange registry:https://registry.npmjs.org/ref-struct not in flight; fetching
+197 silly cache afterAdd ref@1.3.2
+198 verbose afterAdd /Users/exceed/.npm/ref/1.3.2/package/package.json not in flight; writing
+199 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+200 verbose get https://registry.npmjs.org/ref-struct not expired, no request
+201 silly addNameRange number 2 { name: 'ref-struct', range: '*', hasData: true }
+202 silly addNameRange versions [ 'ref-struct',
+202 silly addNameRange   [ '0.0.1',
+202 silly addNameRange     '0.0.2',
+202 silly addNameRange     '0.0.3',
+202 silly addNameRange     '0.0.4',
+202 silly addNameRange     '0.0.5',
+202 silly addNameRange     '0.0.6',
+202 silly addNameRange     '0.0.7',
+202 silly addNameRange     '1.0.0',
+202 silly addNameRange     '1.0.1',
+202 silly addNameRange     '1.0.2',
+202 silly addNameRange     '1.1.0' ] ]
+203 silly addNamed ref-struct@1.1.0
+204 verbose addNamed "1.1.0" is a plain semver version for ref-struct
+205 silly cache afterAdd ref-struct@1.1.0
+206 verbose afterAdd /Users/exceed/.npm/ref-struct/1.1.0/package/package.json not in flight; writing
+207 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+208 verbose afterAdd /Users/exceed/.npm/ref/1.3.2/package/package.json written
+209 verbose afterAdd /Users/exceed/.npm/ref-struct/1.1.0/package/package.json written
+210 silly fetchNamedPackageData nan
+211 silly mapToRegistry name nan
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npmjs.org/
+214 silly mapToRegistry data Result {
+214 silly mapToRegistry   raw: 'nan',
+214 silly mapToRegistry   scope: null,
+214 silly mapToRegistry   name: 'nan',
+214 silly mapToRegistry   rawSpec: '',
+214 silly mapToRegistry   spec: 'latest',
+214 silly mapToRegistry   type: 'tag' }
+215 silly mapToRegistry uri https://registry.npmjs.org/nan
+216 verbose request uri https://registry.npmjs.org/nan
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 12:34:22 PM
+219 verbose etag "1OOZJAUMBQC59OINHZGMRRCSL"
+220 http request GET https://registry.npmjs.org/nan
+221 http 304 https://registry.npmjs.org/nan
+222 verbose headers { date: 'Thu, 01 Sep 2016 05:34:22 GMT',
+222 verbose headers   via: '1.1 varnish',
+222 verbose headers   'cache-control': 'max-age=300',
+222 verbose headers   etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
+222 verbose headers   age: '293',
+222 verbose headers   connection: 'keep-alive',
+222 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+222 verbose headers   'x-cache': 'HIT',
+222 verbose headers   'x-cache-hits': '14',
+222 verbose headers   'x-timer': 'S1472708062.219865,VS0,VE0',
+222 verbose headers   vary: 'Accept-Encoding' }
+223 silly get cb [ 304,
+223 silly get   { date: 'Thu, 01 Sep 2016 05:34:22 GMT',
+223 silly get     via: '1.1 varnish',
+223 silly get     'cache-control': 'max-age=300',
+223 silly get     etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
+223 silly get     age: '293',
+223 silly get     connection: 'keep-alive',
+223 silly get     'x-served-by': 'cache-sin6926-SIN',
+223 silly get     'x-cache': 'HIT',
+223 silly get     'x-cache-hits': '14',
+223 silly get     'x-timer': 'S1472708062.219865,VS0,VE0',
+223 silly get     vary: 'Accept-Encoding' } ]
+224 verbose etag https://registry.npmjs.org/nan from cache
+225 verbose get saving nan to /Users/exceed/.npm/registry.npmjs.org/nan/.cache.json
+226 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+227 silly resolveWithNewModule nan@2.4.0 checking installable status
+228 silly cache add args [ 'nan@2', null ]
+229 verbose cache add spec nan@2
+230 silly cache add parsed spec Result {
+230 silly cache add   raw: 'nan@2',
+230 silly cache add   scope: null,
+230 silly cache add   name: 'nan',
+230 silly cache add   rawSpec: '2',
+230 silly cache add   spec: '>=2.0.0 <3.0.0',
+230 silly cache add   type: 'range' }
+231 silly addNamed nan@>=2.0.0 <3.0.0
+232 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for nan
+233 silly addNameRange { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: false }
+234 silly mapToRegistry name nan
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npmjs.org/
+237 silly mapToRegistry data Result {
+237 silly mapToRegistry   raw: 'nan',
+237 silly mapToRegistry   scope: null,
+237 silly mapToRegistry   name: 'nan',
+237 silly mapToRegistry   rawSpec: '',
+237 silly mapToRegistry   spec: 'latest',
+237 silly mapToRegistry   type: 'tag' }
+238 silly mapToRegistry uri https://registry.npmjs.org/nan
+239 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+240 verbose get https://registry.npmjs.org/nan not expired, no request
+241 silly addNameRange number 2 { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: true }
+242 silly addNameRange versions [ 'nan',
+242 silly addNameRange   [ '0.3.0-wip',
+242 silly addNameRange     '0.3.0-wip2',
+242 silly addNameRange     '0.3.0',
+242 silly addNameRange     '0.3.1',
+242 silly addNameRange     '0.3.2',
+242 silly addNameRange     '0.4.0',
+242 silly addNameRange     '0.4.1',
+242 silly addNameRange     '0.4.2',
+242 silly addNameRange     '0.4.3',
+242 silly addNameRange     '0.4.4',
+242 silly addNameRange     '0.5.0',
+242 silly addNameRange     '0.5.1',
+242 silly addNameRange     '0.5.2',
+242 silly addNameRange     '0.6.0',
+242 silly addNameRange     '0.7.0',
+242 silly addNameRange     '0.7.1',
+242 silly addNameRange     '0.8.0',
+242 silly addNameRange     '1.0.0',
+242 silly addNameRange     '1.1.0',
+242 silly addNameRange     '1.1.1',
+242 silly addNameRange     '1.1.2',
+242 silly addNameRange     '1.2.0',
+242 silly addNameRange     '1.3.0',
+242 silly addNameRange     '1.4.0',
+242 silly addNameRange     '1.4.1',
+242 silly addNameRange     '1.5.0',
+242 silly addNameRange     '1.4.2',
+242 silly addNameRange     '1.4.3',
+242 silly addNameRange     '1.5.1',
+242 silly addNameRange     '1.5.2',
+242 silly addNameRange     '1.6.0',
+242 silly addNameRange     '1.5.3',
+242 silly addNameRange     '1.6.1',
+242 silly addNameRange     '1.6.2',
+242 silly addNameRange     '1.7.0',
+242 silly addNameRange     '1.8.0',
+242 silly addNameRange     '1.8.1',
+242 silly addNameRange     '1.8.2',
+242 silly addNameRange     '1.8.3',
+242 silly addNameRange     '1.8.4',
+242 silly addNameRange     '1.9.0',
+242 silly addNameRange     '2.0.0',
+242 silly addNameRange     '2.0.1',
+242 silly addNameRange     '2.0.2',
+242 silly addNameRange     '2.0.3',
+242 silly addNameRange     '2.0.4',
+242 silly addNameRange     '2.0.5',
+242 silly addNameRange     '2.0.6',
+242 silly addNameRange     '2.0.7',
+242 silly addNameRange     '2.0.8',
+242 silly addNameRange     '2.0.9',
+242 silly addNameRange     '2.1.0',
+242 silly addNameRange     '2.2.0',
+242 silly addNameRange     '2.2.1',
+242 silly addNameRange     '2.3.0',
+242 silly addNameRange     '2.3.1',
+242 silly addNameRange     '2.3.2',
+242 silly addNameRange     '2.3.3',
+242 silly addNameRange     '2.3.4',
+242 silly addNameRange     '2.3.5',
+242 silly addNameRange     '2.4.0' ] ]
+243 silly addNamed nan@2.4.0
+244 verbose addNamed "2.4.0" is a plain semver version for nan
+245 silly cache afterAdd nan@2.4.0
+246 verbose afterAdd /Users/exceed/.npm/nan/2.4.0/package/package.json not in flight; writing
+247 verbose correctMkdir /Users/exceed/.npm correctMkdir not in flight; initializing
+248 verbose afterAdd /Users/exceed/.npm/nan/2.4.0/package/package.json written
+249 silly loadAllDepsIntoIdealTree Finishing
+250 silly idealTree:prePrune kundjansaith@1.0.0
+250 silly idealTree:prePrune ├── abbrev@1.0.9
+250 silly idealTree:prePrune ├── accepts@1.3.3
+250 silly idealTree:prePrune ├── ansi-regex@2.0.0
+250 silly idealTree:prePrune ├── ansi-styles@2.2.1
+250 silly idealTree:prePrune ├── aproba@1.0.4
+250 silly idealTree:prePrune ├── are-we-there-yet@1.1.2
+250 silly idealTree:prePrune ├── array-flatten@1.1.1
+250 silly idealTree:prePrune ├── array-index@1.0.0
+250 silly idealTree:prePrune ├── asn1@0.2.3
+250 silly idealTree:prePrune ├── assert-plus@0.2.0
+250 silly idealTree:prePrune ├── async@2.0.1
+250 silly idealTree:prePrune ├── aws-sign2@0.6.0
+250 silly idealTree:prePrune ├── aws4@1.4.1
+250 silly idealTree:prePrune ├── balanced-match@0.4.2
+250 silly idealTree:prePrune ├─┬ bcrypt-pbkdf@1.0.0
+250 silly idealTree:prePrune │ └── tweetnacl@0.14.3
+250 silly idealTree:prePrune ├── bignumber.js@2.3.0
+250 silly idealTree:prePrune ├── bindings@1.2.1
+250 silly idealTree:prePrune ├─┬ bl@1.1.2
+250 silly idealTree:prePrune │ ├── isarray@1.0.0
+250 silly idealTree:prePrune │ └── readable-stream@2.0.6
+250 silly idealTree:prePrune ├── block-stream@0.0.9
+250 silly idealTree:prePrune ├── boom@2.10.1
+250 silly idealTree:prePrune ├── brace-expansion@1.1.6
+250 silly idealTree:prePrune ├── caseless@0.11.0
+250 silly idealTree:prePrune ├── chalk@1.1.3
+250 silly idealTree:prePrune ├── code-point-at@1.0.0
+250 silly idealTree:prePrune ├── combined-stream@1.0.5
+250 silly idealTree:prePrune ├── commander@2.9.0
+250 silly idealTree:prePrune ├── concat-map@0.0.1
+250 silly idealTree:prePrune ├── console-control-strings@1.1.0
+250 silly idealTree:prePrune ├── content-disposition@0.5.1
+250 silly idealTree:prePrune ├── content-type@1.0.2
+250 silly idealTree:prePrune ├── cookie-signature@1.0.6
+250 silly idealTree:prePrune ├── cookie@0.3.1
+250 silly idealTree:prePrune ├── core-util-is@1.0.2
+250 silly idealTree:prePrune ├── cors@2.8.0
+250 silly idealTree:prePrune ├── cryptiles@2.0.5
+250 silly idealTree:prePrune ├── d@0.1.1
+250 silly idealTree:prePrune ├─┬ dashdash@1.14.0
+250 silly idealTree:prePrune │ └── assert-plus@1.0.0
+250 silly idealTree:prePrune ├── debug@2.2.0
+250 silly idealTree:prePrune ├── delayed-stream@1.0.0
+250 silly idealTree:prePrune ├── delegates@1.0.0
+250 silly idealTree:prePrune ├── depd@1.1.0
+250 silly idealTree:prePrune ├── destroy@1.0.4
+250 silly idealTree:prePrune ├── ecc-jsbn@0.1.1
+250 silly idealTree:prePrune ├── ee-first@1.1.1
+250 silly idealTree:prePrune ├── encodeurl@1.0.1
+250 silly idealTree:prePrune ├── es5-ext@0.10.12
+250 silly idealTree:prePrune ├── es6-iterator@2.0.0
+250 silly idealTree:prePrune ├── es6-symbol@3.1.0
+250 silly idealTree:prePrune ├── escape-html@1.0.3
+250 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
+250 silly idealTree:prePrune ├── etag@1.7.0
+250 silly idealTree:prePrune ├── exec-sync@0.1.6
+250 silly idealTree:prePrune ├── express@4.14.0
+250 silly idealTree:prePrune ├── extend@3.0.0
+250 silly idealTree:prePrune ├── extsprintf@1.0.2
+250 silly idealTree:prePrune ├── ffi@1.2.5
+250 silly idealTree:prePrune ├── finalhandler@0.5.0
+250 silly idealTree:prePrune ├── forever-agent@0.6.1
+250 silly idealTree:prePrune ├── form-data@1.0.1
+250 silly idealTree:prePrune ├── forwarded@0.1.0
+250 silly idealTree:prePrune ├── fresh@0.3.0
+250 silly idealTree:prePrune ├── fs.realpath@1.0.0
+250 silly idealTree:prePrune ├── fstream@1.0.10
+250 silly idealTree:prePrune ├── gauge@2.6.0
+250 silly idealTree:prePrune ├── generate-function@2.0.0
+250 silly idealTree:prePrune ├── generate-object-property@1.2.0
+250 silly idealTree:prePrune ├─┬ getpass@0.1.6
+250 silly idealTree:prePrune │ └── assert-plus@1.0.0
+250 silly idealTree:prePrune ├── glob@7.0.6
+250 silly idealTree:prePrune ├── graceful-fs@4.1.6
+250 silly idealTree:prePrune ├── graceful-readlink@1.0.1
+250 silly idealTree:prePrune ├── har-validator@2.0.6
+250 silly idealTree:prePrune ├── has-ansi@2.0.0
+250 silly idealTree:prePrune ├── has-color@0.1.7
+250 silly idealTree:prePrune ├── has-unicode@2.0.1
+250 silly idealTree:prePrune ├── hawk@3.1.3
+250 silly idealTree:prePrune ├── hoek@2.16.3
+250 silly idealTree:prePrune ├── http-errors@1.5.0
+250 silly idealTree:prePrune ├── http-signature@1.1.1
+250 silly idealTree:prePrune ├── inflight@1.0.5
+250 silly idealTree:prePrune ├── inherits@2.0.1
+250 silly idealTree:prePrune ├── ipaddr.js@1.1.1
+250 silly idealTree:prePrune ├── is-fullwidth-code-point@1.0.0
+250 silly idealTree:prePrune ├── is-my-json-valid@2.13.1
+250 silly idealTree:prePrune ├── is-property@1.0.2
+250 silly idealTree:prePrune ├── is-typedarray@1.0.0
+250 silly idealTree:prePrune ├── isarray@0.0.1
+250 silly idealTree:prePrune ├── isexe@1.1.2
+250 silly idealTree:prePrune ├── isstream@0.1.2
+250 silly idealTree:prePrune ├── jodid25519@1.0.2
+250 silly idealTree:prePrune ├── jsbn@0.1.0
+250 silly idealTree:prePrune ├── json-schema@0.2.2
+250 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+250 silly idealTree:prePrune ├── jsonpointer@2.0.0
+250 silly idealTree:prePrune ├── jsprim@1.3.0
+250 silly idealTree:prePrune ├── lodash@4.15.0
+250 silly idealTree:prePrune ├── media-typer@0.3.0
+250 silly idealTree:prePrune ├── merge-descriptors@1.0.1
+250 silly idealTree:prePrune ├── methods@1.1.2
+250 silly idealTree:prePrune ├── mime-db@1.23.0
+250 silly idealTree:prePrune ├── mime-types@2.1.11
+250 silly idealTree:prePrune ├── mime@1.3.4
+250 silly idealTree:prePrune ├── minimatch@3.0.3
+250 silly idealTree:prePrune ├── minimist@0.0.8
+250 silly idealTree:prePrune ├── mkdirp@0.5.1
+250 silly idealTree:prePrune ├── ms@0.7.1
+250 silly idealTree:prePrune ├── mysql@2.11.1
+250 silly idealTree:prePrune ├── nan@2.4.0
+250 silly idealTree:prePrune ├── negotiator@0.6.1
+250 silly idealTree:prePrune ├── node-gyp@3.4.0
+250 silly idealTree:prePrune ├── node-uuid@1.4.7
+250 silly idealTree:prePrune ├── node@0.0.0
+250 silly idealTree:prePrune ├── nopt@3.0.6
+250 silly idealTree:prePrune ├── npmlog@3.1.2
+250 silly idealTree:prePrune ├── number-is-nan@1.0.0
+250 silly idealTree:prePrune ├── oauth-sign@0.8.2
+250 silly idealTree:prePrune ├── object-assign@4.1.0
+250 silly idealTree:prePrune ├── on-finished@2.3.0
+250 silly idealTree:prePrune ├── once@1.3.3
+250 silly idealTree:prePrune ├── optimist@0.3.7
+250 silly idealTree:prePrune ├── os-homedir@1.0.1
+250 silly idealTree:prePrune ├── os-tmpdir@1.0.1
+250 silly idealTree:prePrune ├── osenv@0.1.3
+250 silly idealTree:prePrune ├── parseurl@1.3.1
+250 silly idealTree:prePrune ├── path-array@1.0.1
+250 silly idealTree:prePrune ├── path-is-absolute@1.0.0
+250 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+250 silly idealTree:prePrune ├── pinkie-promise@2.0.1
+250 silly idealTree:prePrune ├── pinkie@2.0.4
+250 silly idealTree:prePrune ├── process-nextick-args@1.0.7
+250 silly idealTree:prePrune ├── proxy-addr@1.1.2
+250 silly idealTree:prePrune ├── qs@6.2.0
+250 silly idealTree:prePrune ├── range-parser@1.2.0
+250 silly idealTree:prePrune ├── readable-stream@1.1.14
+250 silly idealTree:prePrune ├── rebuild@0.1.2
+250 silly idealTree:prePrune ├── ref-struct@1.1.0
+250 silly idealTree:prePrune ├── ref@1.3.2
+250 silly idealTree:prePrune ├── request@2.74.0
+250 silly idealTree:prePrune ├── rimraf@2.5.4
+250 silly idealTree:prePrune ├── semver@5.3.0
+250 silly idealTree:prePrune ├── send@0.14.1
+250 silly idealTree:prePrune ├── serve-static@1.11.1
+250 silly idealTree:prePrune ├── set-blocking@2.0.0
+250 silly idealTree:prePrune ├── setprototypeof@1.0.1
+250 silly idealTree:prePrune ├── signal-exit@3.0.0
+250 silly idealTree:prePrune ├── sntp@1.0.9
+250 silly idealTree:prePrune ├── sqlstring@2.0.1
+250 silly idealTree:prePrune ├─┬ sshpk@1.10.0
+250 silly idealTree:prePrune │ └── assert-plus@1.0.0
+250 silly idealTree:prePrune ├── statuses@1.3.0
+250 silly idealTree:prePrune ├── string_decoder@0.10.31
+250 silly idealTree:prePrune ├── string-width@1.0.2
+250 silly idealTree:prePrune ├── stringstream@0.0.5
+250 silly idealTree:prePrune ├── strip-ansi@3.0.1
+250 silly idealTree:prePrune ├── supports-color@2.0.0
+250 silly idealTree:prePrune ├── sync-exec@0.6.2
+250 silly idealTree:prePrune ├── tar@2.2.1
+250 silly idealTree:prePrune ├── tough-cookie@2.3.1
+250 silly idealTree:prePrune ├── tunnel-agent@0.4.3
+250 silly idealTree:prePrune ├── tweetnacl@0.13.3
+250 silly idealTree:prePrune ├── type-is@1.6.13
+250 silly idealTree:prePrune ├── unpipe@1.0.0
+250 silly idealTree:prePrune ├── util-deprecate@1.0.2
+250 silly idealTree:prePrune ├── utils-merge@1.0.0
+250 silly idealTree:prePrune ├── vary@1.1.0
+250 silly idealTree:prePrune ├── verror@1.3.6
+250 silly idealTree:prePrune ├── which@1.2.10
+250 silly idealTree:prePrune ├── wide-align@1.1.0
+250 silly idealTree:prePrune ├── wordwrap@0.0.3
+250 silly idealTree:prePrune ├── wrappy@1.0.2
+250 silly idealTree:prePrune └── xtend@4.0.1
+251 silly loadIdealTree Finishing
+252 silly currentTree kundjansaith@1.0.0
+252 silly currentTree ├── abbrev@1.0.9
+252 silly currentTree ├── accepts@1.3.3
+252 silly currentTree ├── ansi-regex@2.0.0
+252 silly currentTree ├── ansi-styles@2.2.1
+252 silly currentTree ├── aproba@1.0.4
+252 silly currentTree ├── are-we-there-yet@1.1.2
+252 silly currentTree ├── array-flatten@1.1.1
+252 silly currentTree ├── array-index@1.0.0
+252 silly currentTree ├── asn1@0.2.3
+252 silly currentTree ├── assert-plus@0.2.0
+252 silly currentTree ├── async@2.0.1
+252 silly currentTree ├── aws-sign2@0.6.0
+252 silly currentTree ├── aws4@1.4.1
+252 silly currentTree ├── balanced-match@0.4.2
+252 silly currentTree ├─┬ bcrypt-pbkdf@1.0.0
+252 silly currentTree │ └── tweetnacl@0.14.3
+252 silly currentTree ├── bignumber.js@2.3.0
+252 silly currentTree ├─┬ bl@1.1.2
+252 silly currentTree │ ├── isarray@1.0.0
+252 silly currentTree │ └── readable-stream@2.0.6
+252 silly currentTree ├── block-stream@0.0.9
+252 silly currentTree ├── boom@2.10.1
+252 silly currentTree ├── brace-expansion@1.1.6
+252 silly currentTree ├── caseless@0.11.0
+252 silly currentTree ├── chalk@1.1.3
+252 silly currentTree ├── code-point-at@1.0.0
+252 silly currentTree ├── combined-stream@1.0.5
+252 silly currentTree ├── commander@2.9.0
+252 silly currentTree ├── concat-map@0.0.1
+252 silly currentTree ├── console-control-strings@1.1.0
+252 silly currentTree ├── content-disposition@0.5.1
+252 silly currentTree ├── content-type@1.0.2
+252 silly currentTree ├── cookie-signature@1.0.6
+252 silly currentTree ├── cookie@0.3.1
+252 silly currentTree ├── core-util-is@1.0.2
+252 silly currentTree ├── cors@2.8.0
+252 silly currentTree ├── cryptiles@2.0.5
+252 silly currentTree ├── d@0.1.1
+252 silly currentTree ├─┬ dashdash@1.14.0
+252 silly currentTree │ └── assert-plus@1.0.0
+252 silly currentTree ├── debug@2.2.0
+252 silly currentTree ├── delayed-stream@1.0.0
+252 silly currentTree ├── delegates@1.0.0
+252 silly currentTree ├── depd@1.1.0
+252 silly currentTree ├── destroy@1.0.4
+252 silly currentTree ├── ecc-jsbn@0.1.1
+252 silly currentTree ├── ee-first@1.1.1
+252 silly currentTree ├── encodeurl@1.0.1
+252 silly currentTree ├── es5-ext@0.10.12
+252 silly currentTree ├── es6-iterator@2.0.0
+252 silly currentTree ├── es6-symbol@3.1.0
+252 silly currentTree ├── escape-html@1.0.3
+252 silly currentTree ├── escape-string-regexp@1.0.5
+252 silly currentTree ├── etag@1.7.0
+252 silly currentTree ├── express@4.14.0
+252 silly currentTree ├── extend@3.0.0
+252 silly currentTree ├── extsprintf@1.0.2
+252 silly currentTree ├── finalhandler@0.5.0
+252 silly currentTree ├── forever-agent@0.6.1
+252 silly currentTree ├── form-data@1.0.1
+252 silly currentTree ├── forwarded@0.1.0
+252 silly currentTree ├── fresh@0.3.0
+252 silly currentTree ├── fs.realpath@1.0.0
+252 silly currentTree ├── fstream@1.0.10
+252 silly currentTree ├── gauge@2.6.0
+252 silly currentTree ├── generate-function@2.0.0
+252 silly currentTree ├── generate-object-property@1.2.0
+252 silly currentTree ├─┬ getpass@0.1.6
+252 silly currentTree │ └── assert-plus@1.0.0
+252 silly currentTree ├── glob@7.0.6
+252 silly currentTree ├── graceful-fs@4.1.6
+252 silly currentTree ├── graceful-readlink@1.0.1
+252 silly currentTree ├── har-validator@2.0.6
+252 silly currentTree ├── has-ansi@2.0.0
+252 silly currentTree ├── has-color@0.1.7
+252 silly currentTree ├── has-unicode@2.0.1
+252 silly currentTree ├── hawk@3.1.3
+252 silly currentTree ├── hoek@2.16.3
+252 silly currentTree ├── http-errors@1.5.0
+252 silly currentTree ├── http-signature@1.1.1
+252 silly currentTree ├── inflight@1.0.5
+252 silly currentTree ├── inherits@2.0.1
+252 silly currentTree ├── ipaddr.js@1.1.1
+252 silly currentTree ├── is-fullwidth-code-point@1.0.0
+252 silly currentTree ├── is-my-json-valid@2.13.1
+252 silly currentTree ├── is-property@1.0.2
+252 silly currentTree ├── is-typedarray@1.0.0
+252 silly currentTree ├── isarray@0.0.1
+252 silly currentTree ├── isexe@1.1.2
+252 silly currentTree ├── isstream@0.1.2
+252 silly currentTree ├── jodid25519@1.0.2
+252 silly currentTree ├── jsbn@0.1.0
+252 silly currentTree ├── json-schema@0.2.2
+252 silly currentTree ├── json-stringify-safe@5.0.1
+252 silly currentTree ├── jsonpointer@2.0.0
+252 silly currentTree ├── jsprim@1.3.0
+252 silly currentTree ├── lodash@4.15.0
+252 silly currentTree ├── media-typer@0.3.0
+252 silly currentTree ├── merge-descriptors@1.0.1
+252 silly currentTree ├── methods@1.1.2
+252 silly currentTree ├── mime-db@1.23.0
+252 silly currentTree ├── mime-types@2.1.11
+252 silly currentTree ├── mime@1.3.4
+252 silly currentTree ├── minimatch@3.0.3
+252 silly currentTree ├── minimist@0.0.8
+252 silly currentTree ├── mkdirp@0.5.1
+252 silly currentTree ├── ms@0.7.1
+252 silly currentTree ├── mysql@2.11.1
+252 silly currentTree ├── negotiator@0.6.1
+252 silly currentTree ├── node-gyp@3.4.0
+252 silly currentTree ├── node-uuid@1.4.7
+252 silly currentTree ├── node@0.0.0
+252 silly currentTree ├── nopt@3.0.6
+252 silly currentTree ├── npmlog@3.1.2
+252 silly currentTree ├── number-is-nan@1.0.0
+252 silly currentTree ├── oauth-sign@0.8.2
+252 silly currentTree ├── object-assign@4.1.0
+252 silly currentTree ├── on-finished@2.3.0
+252 silly currentTree ├── once@1.3.3
+252 silly currentTree ├── optimist@0.3.7
+252 silly currentTree ├── os-homedir@1.0.1
+252 silly currentTree ├── os-tmpdir@1.0.1
+252 silly currentTree ├── osenv@0.1.3
+252 silly currentTree ├── parseurl@1.3.1
+252 silly currentTree ├── path-array@1.0.1
+252 silly currentTree ├── path-is-absolute@1.0.0
+252 silly currentTree ├── path-to-regexp@0.1.7
+252 silly currentTree ├── pinkie-promise@2.0.1
+252 silly currentTree ├── pinkie@2.0.4
+252 silly currentTree ├── process-nextick-args@1.0.7
+252 silly currentTree ├── proxy-addr@1.1.2
+252 silly currentTree ├── qs@6.2.0
+252 silly currentTree ├── range-parser@1.2.0
+252 silly currentTree ├── readable-stream@1.1.14
+252 silly currentTree ├── rebuild@0.1.2
+252 silly currentTree ├── request@2.74.0
+252 silly currentTree ├── rimraf@2.5.4
+252 silly currentTree ├── semver@5.3.0
+252 silly currentTree ├── send@0.14.1
+252 silly currentTree ├── serve-static@1.11.1
+252 silly currentTree ├── set-blocking@2.0.0
+252 silly currentTree ├── setprototypeof@1.0.1
+252 silly currentTree ├── signal-exit@3.0.0
+252 silly currentTree ├── sntp@1.0.9
+252 silly currentTree ├── sqlstring@2.0.1
+252 silly currentTree ├─┬ sshpk@1.10.0
+252 silly currentTree │ └── assert-plus@1.0.0
+252 silly currentTree ├── statuses@1.3.0
+252 silly currentTree ├── string_decoder@0.10.31
+252 silly currentTree ├── string-width@1.0.2
+252 silly currentTree ├── stringstream@0.0.5
+252 silly currentTree ├── strip-ansi@3.0.1
+252 silly currentTree ├── supports-color@2.0.0
+252 silly currentTree ├── sync-exec@0.6.2
+252 silly currentTree ├── tar@2.2.1
+252 silly currentTree ├── tough-cookie@2.3.1
+252 silly currentTree ├── tunnel-agent@0.4.3
+252 silly currentTree ├── tweetnacl@0.13.3
+252 silly currentTree ├── type-is@1.6.13
+252 silly currentTree ├── unpipe@1.0.0
+252 silly currentTree ├── util-deprecate@1.0.2
+252 silly currentTree ├── utils-merge@1.0.0
+252 silly currentTree ├── vary@1.1.0
+252 silly currentTree ├── verror@1.3.6
+252 silly currentTree ├── which@1.2.10
+252 silly currentTree ├── wide-align@1.1.0
+252 silly currentTree ├── wordwrap@0.0.3
+252 silly currentTree ├── wrappy@1.0.2
+252 silly currentTree └── xtend@4.0.1
+253 silly idealTree kundjansaith@1.0.0
+253 silly idealTree ├── abbrev@1.0.9
+253 silly idealTree ├── accepts@1.3.3
+253 silly idealTree ├── ansi-regex@2.0.0
+253 silly idealTree ├── ansi-styles@2.2.1
+253 silly idealTree ├── aproba@1.0.4
+253 silly idealTree ├── are-we-there-yet@1.1.2
+253 silly idealTree ├── array-flatten@1.1.1
+253 silly idealTree ├── array-index@1.0.0
+253 silly idealTree ├── asn1@0.2.3
+253 silly idealTree ├── assert-plus@0.2.0
+253 silly idealTree ├── async@2.0.1
+253 silly idealTree ├── aws-sign2@0.6.0
+253 silly idealTree ├── aws4@1.4.1
+253 silly idealTree ├── balanced-match@0.4.2
+253 silly idealTree ├─┬ bcrypt-pbkdf@1.0.0
+253 silly idealTree │ └── tweetnacl@0.14.3
+253 silly idealTree ├── bignumber.js@2.3.0
+253 silly idealTree ├── bindings@1.2.1
+253 silly idealTree ├─┬ bl@1.1.2
+253 silly idealTree │ ├── isarray@1.0.0
+253 silly idealTree │ └── readable-stream@2.0.6
+253 silly idealTree ├── block-stream@0.0.9
+253 silly idealTree ├── boom@2.10.1
+253 silly idealTree ├── brace-expansion@1.1.6
+253 silly idealTree ├── caseless@0.11.0
+253 silly idealTree ├── chalk@1.1.3
+253 silly idealTree ├── code-point-at@1.0.0
+253 silly idealTree ├── combined-stream@1.0.5
+253 silly idealTree ├── commander@2.9.0
+253 silly idealTree ├── concat-map@0.0.1
+253 silly idealTree ├── console-control-strings@1.1.0
+253 silly idealTree ├── content-disposition@0.5.1
+253 silly idealTree ├── content-type@1.0.2
+253 silly idealTree ├── cookie-signature@1.0.6
+253 silly idealTree ├── cookie@0.3.1
+253 silly idealTree ├── core-util-is@1.0.2
+253 silly idealTree ├── cors@2.8.0
+253 silly idealTree ├── cryptiles@2.0.5
+253 silly idealTree ├── d@0.1.1
+253 silly idealTree ├─┬ dashdash@1.14.0
+253 silly idealTree │ └── assert-plus@1.0.0
+253 silly idealTree ├── debug@2.2.0
+253 silly idealTree ├── delayed-stream@1.0.0
+253 silly idealTree ├── delegates@1.0.0
+253 silly idealTree ├── depd@1.1.0
+253 silly idealTree ├── destroy@1.0.4
+253 silly idealTree ├── ecc-jsbn@0.1.1
+253 silly idealTree ├── ee-first@1.1.1
+253 silly idealTree ├── encodeurl@1.0.1
+253 silly idealTree ├── es5-ext@0.10.12
+253 silly idealTree ├── es6-iterator@2.0.0
+253 silly idealTree ├── es6-symbol@3.1.0
+253 silly idealTree ├── escape-html@1.0.3
+253 silly idealTree ├── escape-string-regexp@1.0.5
+253 silly idealTree ├── etag@1.7.0
+253 silly idealTree ├── exec-sync@0.1.6
+253 silly idealTree ├── express@4.14.0
+253 silly idealTree ├── extend@3.0.0
+253 silly idealTree ├── extsprintf@1.0.2
+253 silly idealTree ├── ffi@1.2.5
+253 silly idealTree ├── finalhandler@0.5.0
+253 silly idealTree ├── forever-agent@0.6.1
+253 silly idealTree ├── form-data@1.0.1
+253 silly idealTree ├── forwarded@0.1.0
+253 silly idealTree ├── fresh@0.3.0
+253 silly idealTree ├── fs.realpath@1.0.0
+253 silly idealTree ├── fstream@1.0.10
+253 silly idealTree ├── gauge@2.6.0
+253 silly idealTree ├── generate-function@2.0.0
+253 silly idealTree ├── generate-object-property@1.2.0
+253 silly idealTree ├─┬ getpass@0.1.6
+253 silly idealTree │ └── assert-plus@1.0.0
+253 silly idealTree ├── glob@7.0.6
+253 silly idealTree ├── graceful-fs@4.1.6
+253 silly idealTree ├── graceful-readlink@1.0.1
+253 silly idealTree ├── har-validator@2.0.6
+253 silly idealTree ├── has-ansi@2.0.0
+253 silly idealTree ├── has-color@0.1.7
+253 silly idealTree ├── has-unicode@2.0.1
+253 silly idealTree ├── hawk@3.1.3
+253 silly idealTree ├── hoek@2.16.3
+253 silly idealTree ├── http-errors@1.5.0
+253 silly idealTree ├── http-signature@1.1.1
+253 silly idealTree ├── inflight@1.0.5
+253 silly idealTree ├── inherits@2.0.1
+253 silly idealTree ├── ipaddr.js@1.1.1
+253 silly idealTree ├── is-fullwidth-code-point@1.0.0
+253 silly idealTree ├── is-my-json-valid@2.13.1
+253 silly idealTree ├── is-property@1.0.2
+253 silly idealTree ├── is-typedarray@1.0.0
+253 silly idealTree ├── isarray@0.0.1
+253 silly idealTree ├── isexe@1.1.2
+253 silly idealTree ├── isstream@0.1.2
+253 silly idealTree ├── jodid25519@1.0.2
+253 silly idealTree ├── jsbn@0.1.0
+253 silly idealTree ├── json-schema@0.2.2
+253 silly idealTree ├── json-stringify-safe@5.0.1
+253 silly idealTree ├── jsonpointer@2.0.0
+253 silly idealTree ├── jsprim@1.3.0
+253 silly idealTree ├── lodash@4.15.0
+253 silly idealTree ├── media-typer@0.3.0
+253 silly idealTree ├── merge-descriptors@1.0.1
+253 silly idealTree ├── methods@1.1.2
+253 silly idealTree ├── mime-db@1.23.0
+253 silly idealTree ├── mime-types@2.1.11
+253 silly idealTree ├── mime@1.3.4
+253 silly idealTree ├── minimatch@3.0.3
+253 silly idealTree ├── minimist@0.0.8
+253 silly idealTree ├── mkdirp@0.5.1
+253 silly idealTree ├── ms@0.7.1
+253 silly idealTree ├── mysql@2.11.1
+253 silly idealTree ├── nan@2.4.0
+253 silly idealTree ├── negotiator@0.6.1
+253 silly idealTree ├── node-gyp@3.4.0
+253 silly idealTree ├── node-uuid@1.4.7
+253 silly idealTree ├── node@0.0.0
+253 silly idealTree ├── nopt@3.0.6
+253 silly idealTree ├── npmlog@3.1.2
+253 silly idealTree ├── number-is-nan@1.0.0
+253 silly idealTree ├── oauth-sign@0.8.2
+253 silly idealTree ├── object-assign@4.1.0
+253 silly idealTree ├── on-finished@2.3.0
+253 silly idealTree ├── once@1.3.3
+253 silly idealTree ├── optimist@0.3.7
+253 silly idealTree ├── os-homedir@1.0.1
+253 silly idealTree ├── os-tmpdir@1.0.1
+253 silly idealTree ├── osenv@0.1.3
+253 silly idealTree ├── parseurl@1.3.1
+253 silly idealTree ├── path-array@1.0.1
+253 silly idealTree ├── path-is-absolute@1.0.0
+253 silly idealTree ├── path-to-regexp@0.1.7
+253 silly idealTree ├── pinkie-promise@2.0.1
+253 silly idealTree ├── pinkie@2.0.4
+253 silly idealTree ├── process-nextick-args@1.0.7
+253 silly idealTree ├── proxy-addr@1.1.2
+253 silly idealTree ├── qs@6.2.0
+253 silly idealTree ├── range-parser@1.2.0
+253 silly idealTree ├── readable-stream@1.1.14
+253 silly idealTree ├── rebuild@0.1.2
+253 silly idealTree ├── ref-struct@1.1.0
+253 silly idealTree ├── ref@1.3.2
+253 silly idealTree ├── request@2.74.0
+253 silly idealTree ├── rimraf@2.5.4
+253 silly idealTree ├── semver@5.3.0
+253 silly idealTree ├── send@0.14.1
+253 silly idealTree ├── serve-static@1.11.1
+253 silly idealTree ├── set-blocking@2.0.0
+253 silly idealTree ├── setprototypeof@1.0.1
+253 silly idealTree ├── signal-exit@3.0.0
+253 silly idealTree ├── sntp@1.0.9
+253 silly idealTree ├── sqlstring@2.0.1
+253 silly idealTree ├─┬ sshpk@1.10.0
+253 silly idealTree │ └── assert-plus@1.0.0
+253 silly idealTree ├── statuses@1.3.0
+253 silly idealTree ├── string_decoder@0.10.31
+253 silly idealTree ├── string-width@1.0.2
+253 silly idealTree ├── stringstream@0.0.5
+253 silly idealTree ├── strip-ansi@3.0.1
+253 silly idealTree ├── supports-color@2.0.0
+253 silly idealTree ├── sync-exec@0.6.2
+253 silly idealTree ├── tar@2.2.1
+253 silly idealTree ├── tough-cookie@2.3.1
+253 silly idealTree ├── tunnel-agent@0.4.3
+253 silly idealTree ├── tweetnacl@0.13.3
+253 silly idealTree ├── type-is@1.6.13
+253 silly idealTree ├── unpipe@1.0.0
+253 silly idealTree ├── util-deprecate@1.0.2
+253 silly idealTree ├── utils-merge@1.0.0
+253 silly idealTree ├── vary@1.1.0
+253 silly idealTree ├── verror@1.3.6
+253 silly idealTree ├── which@1.2.10
+253 silly idealTree ├── wide-align@1.1.0
+253 silly idealTree ├── wordwrap@0.0.3
+253 silly idealTree ├── wrappy@1.0.2
+253 silly idealTree └── xtend@4.0.1
+254 silly generateActionsToTake Starting
+255 silly install generateActionsToTake
+256 silly generateActionsToTake Finishing
+257 silly diffTrees action count 13
+258 silly diffTrees add bindings@1.2.1
+259 silly diffTrees add nan@2.4.0
+260 silly diffTrees add ref@1.3.2
+261 silly diffTrees add ref-struct@1.1.0
+262 silly diffTrees add ffi@1.2.5
+263 silly diffTrees update cors@2.8.0
+264 silly diffTrees add exec-sync@0.1.6
+265 silly diffTrees update express@4.14.0
+266 silly diffTrees update mysql@2.11.1
+267 silly diffTrees update node@0.0.0
+268 silly diffTrees update node-gyp@3.4.0
+269 silly diffTrees update rebuild@0.1.2
+270 silly diffTrees update sync-exec@0.6.2
+271 silly decomposeActions action count 104
+272 silly decomposeActions fetch bindings@1.2.1
+273 silly decomposeActions extract bindings@1.2.1
+274 silly decomposeActions test bindings@1.2.1
+275 silly decomposeActions preinstall bindings@1.2.1
+276 silly decomposeActions build bindings@1.2.1
+277 silly decomposeActions install bindings@1.2.1
+278 silly decomposeActions postinstall bindings@1.2.1
+279 silly decomposeActions finalize bindings@1.2.1
+280 silly decomposeActions fetch nan@2.4.0
+281 silly decomposeActions extract nan@2.4.0
+282 silly decomposeActions test nan@2.4.0
+283 silly decomposeActions preinstall nan@2.4.0
+284 silly decomposeActions build nan@2.4.0
+285 silly decomposeActions install nan@2.4.0
+286 silly decomposeActions postinstall nan@2.4.0
+287 silly decomposeActions finalize nan@2.4.0
+288 silly decomposeActions fetch ref@1.3.2
+289 silly decomposeActions extract ref@1.3.2
+290 silly decomposeActions test ref@1.3.2
+291 silly decomposeActions preinstall ref@1.3.2
+292 silly decomposeActions build ref@1.3.2
+293 silly decomposeActions install ref@1.3.2
+294 silly decomposeActions postinstall ref@1.3.2
+295 silly decomposeActions finalize ref@1.3.2
+296 silly decomposeActions fetch ref-struct@1.1.0
+297 silly decomposeActions extract ref-struct@1.1.0
+298 silly decomposeActions test ref-struct@1.1.0
+299 silly decomposeActions preinstall ref-struct@1.1.0
+300 silly decomposeActions build ref-struct@1.1.0
+301 silly decomposeActions install ref-struct@1.1.0
+302 silly decomposeActions postinstall ref-struct@1.1.0
+303 silly decomposeActions finalize ref-struct@1.1.0
+304 silly decomposeActions fetch ffi@1.2.5
+305 silly decomposeActions extract ffi@1.2.5
+306 silly decomposeActions test ffi@1.2.5
+307 silly decomposeActions preinstall ffi@1.2.5
+308 silly decomposeActions build ffi@1.2.5
+309 silly decomposeActions install ffi@1.2.5
+310 silly decomposeActions postinstall ffi@1.2.5
+311 silly decomposeActions finalize ffi@1.2.5
+312 silly decomposeActions fetch cors@2.8.0
+313 silly decomposeActions extract cors@2.8.0
+314 silly decomposeActions test cors@2.8.0
+315 silly decomposeActions preinstall cors@2.8.0
+316 silly decomposeActions build cors@2.8.0
+317 silly decomposeActions install cors@2.8.0
+318 silly decomposeActions postinstall cors@2.8.0
+319 silly decomposeActions finalize cors@2.8.0
+320 silly decomposeActions fetch exec-sync@0.1.6
+321 silly decomposeActions extract exec-sync@0.1.6
+322 silly decomposeActions test exec-sync@0.1.6
+323 silly decomposeActions preinstall exec-sync@0.1.6
+324 silly decomposeActions build exec-sync@0.1.6
+325 silly decomposeActions install exec-sync@0.1.6
+326 silly decomposeActions postinstall exec-sync@0.1.6
+327 silly decomposeActions finalize exec-sync@0.1.6
+328 silly decomposeActions fetch express@4.14.0
+329 silly decomposeActions extract express@4.14.0
+330 silly decomposeActions test express@4.14.0
+331 silly decomposeActions preinstall express@4.14.0
+332 silly decomposeActions build express@4.14.0
+333 silly decomposeActions install express@4.14.0
+334 silly decomposeActions postinstall express@4.14.0
+335 silly decomposeActions finalize express@4.14.0
+336 silly decomposeActions fetch mysql@2.11.1
+337 silly decomposeActions extract mysql@2.11.1
+338 silly decomposeActions test mysql@2.11.1
+339 silly decomposeActions preinstall mysql@2.11.1
+340 silly decomposeActions build mysql@2.11.1
+341 silly decomposeActions install mysql@2.11.1
+342 silly decomposeActions postinstall mysql@2.11.1
+343 silly decomposeActions finalize mysql@2.11.1
+344 silly decomposeActions fetch node@0.0.0
+345 silly decomposeActions extract node@0.0.0
+346 silly decomposeActions test node@0.0.0
+347 silly decomposeActions preinstall node@0.0.0
+348 silly decomposeActions build node@0.0.0
+349 silly decomposeActions install node@0.0.0
+350 silly decomposeActions postinstall node@0.0.0
+351 silly decomposeActions finalize node@0.0.0
+352 silly decomposeActions fetch node-gyp@3.4.0
+353 silly decomposeActions extract node-gyp@3.4.0
+354 silly decomposeActions test node-gyp@3.4.0
+355 silly decomposeActions preinstall node-gyp@3.4.0
+356 silly decomposeActions build node-gyp@3.4.0
+357 silly decomposeActions install node-gyp@3.4.0
+358 silly decomposeActions postinstall node-gyp@3.4.0
+359 silly decomposeActions finalize node-gyp@3.4.0
+360 silly decomposeActions fetch rebuild@0.1.2
+361 silly decomposeActions extract rebuild@0.1.2
+362 silly decomposeActions test rebuild@0.1.2
+363 silly decomposeActions preinstall rebuild@0.1.2
+364 silly decomposeActions build rebuild@0.1.2
+365 silly decomposeActions install rebuild@0.1.2
+366 silly decomposeActions postinstall rebuild@0.1.2
+367 silly decomposeActions finalize rebuild@0.1.2
+368 silly decomposeActions fetch sync-exec@0.6.2
+369 silly decomposeActions extract sync-exec@0.6.2
+370 silly decomposeActions test sync-exec@0.6.2
+371 silly decomposeActions preinstall sync-exec@0.6.2
+372 silly decomposeActions build sync-exec@0.6.2
+373 silly decomposeActions install sync-exec@0.6.2
+374 silly decomposeActions postinstall sync-exec@0.6.2
+375 silly decomposeActions finalize sync-exec@0.6.2
+376 silly executeActions Starting
+377 silly install executeActions
+378 silly doSerial global-install 0
+379 silly doParallel fetch 13
+380 verbose correctMkdir /Users/exceed/.npm/_locks correctMkdir not in flight; initializing
+381 verbose lock using /Users/exceed/.npm/_locks/staging-875a7df9a2ca746d.lock for /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging
+382 silly doParallel extract 13
+383 silly extract bindings@1.2.1
+384 silly extract nan@2.4.0
+385 silly extract ref@1.3.2
+386 silly extract ref-struct@1.1.0
+387 silly extract ffi@1.2.5
+388 silly extract cors@2.8.0
+389 silly extract exec-sync@0.1.6
+390 silly extract express@4.14.0
+391 silly extract mysql@2.11.1
+392 silly extract node@0.0.0
+393 silly extract node-gyp@3.4.0
+394 silly extract rebuild@0.1.2
+395 silly extract sync-exec@0.6.2
+396 verbose unbuild node_modules/.staging/bindings-0f864e68
+397 verbose unbuild node_modules/.staging/nan-66c128fb
+398 verbose unbuild node_modules/.staging/ref-f3bc0397
+399 verbose unbuild node_modules/.staging/ref-struct-dd210d64
+400 verbose unbuild node_modules/.staging/ffi-e33c3599
+401 verbose unbuild node_modules/.staging/cors-b644f856
+402 verbose unbuild node_modules/.staging/exec-sync-eccf3bd2
+403 verbose unbuild node_modules/.staging/express-e7a2ab8d
+404 verbose unbuild node_modules/.staging/mysql-f551a782
+405 warn deprecated node@0.0.0: To update or install node, go to http://nodejs.org/
+406 verbose unbuild node_modules/.staging/node-6a53be80
+407 verbose unbuild node_modules/.staging/sync-exec-7bf561fd
+408 verbose unbuild node_modules/.staging/rebuild-42139710
+409 verbose unbuild node_modules/.staging/node-gyp-a56ce8a3
+410 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+411 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68
+412 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+413 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb
+414 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+415 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397
+416 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+417 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64
+418 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+419 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599
+420 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+421 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856
+422 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+423 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2
+424 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+425 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d
+426 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+427 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782
+428 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+429 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80
+430 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+431 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd
+432 verbose tar unpack /Users/exceed/.npm/bindings/1.2.1/package.tgz
+433 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68
+434 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68 is being purged
+435 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68
+436 verbose tar unpack /Users/exceed/.npm/nan/2.4.0/package.tgz
+437 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb
+438 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb is being purged
+439 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb
+440 verbose tar unpack /Users/exceed/.npm/ref/1.3.2/package.tgz
+441 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397
+442 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397 is being purged
+443 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397
+444 verbose tar unpack /Users/exceed/.npm/ref-struct/1.1.0/package.tgz
+445 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64
+446 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64 is being purged
+447 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64
+448 verbose tar unpack /Users/exceed/.npm/ffi/1.2.5/package.tgz
+449 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599
+450 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599 is being purged
+451 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599
+452 verbose tar unpack /Users/exceed/.npm/cors/2.8.0/package.tgz
+453 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856
+454 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856 is being purged
+455 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856
+456 verbose tar unpack /Users/exceed/.npm/exec-sync/0.1.6/package.tgz
+457 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2
+458 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2 is being purged
+459 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2
+460 verbose tar unpack /Users/exceed/.npm/express/4.14.0/package.tgz
+461 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d
+462 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d is being purged
+463 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d
+464 verbose tar unpack /Users/exceed/.npm/mysql/2.11.1/package.tgz
+465 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782
+466 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782 is being purged
+467 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782
+468 verbose tar unpack /Users/exceed/.npm/node/0.0.0/package.tgz
+469 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80
+470 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80 is being purged
+471 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80
+472 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+473 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710
+474 verbose tar unpack /Users/exceed/.npm/sync-exec/0.6.2/package.tgz
+475 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd
+476 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd is being purged
+477 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd
+478 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3 is being purged from base /Users/exceed/Desktop/cu_innovation_hub
+479 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3
+480 silly gunzTarPerm modes [ '755', '644' ]
+481 silly gunzTarPerm modes [ '755', '644' ]
+482 silly gunzTarPerm modes [ '755', '644' ]
+483 silly gunzTarPerm modes [ '755', '644' ]
+484 silly gunzTarPerm modes [ '755', '644' ]
+485 silly gunzTarPerm modes [ '755', '644' ]
+486 silly gunzTarPerm modes [ '755', '644' ]
+487 silly gunzTarPerm modes [ '755', '644' ]
+488 silly gunzTarPerm modes [ '755', '644' ]
+489 silly gunzTarPerm modes [ '755', '644' ]
+490 verbose tar unpack /Users/exceed/.npm/rebuild/0.1.2/package.tgz
+491 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710
+492 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710 is being purged
+493 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710
+494 silly gunzTarPerm modes [ '755', '644' ]
+495 verbose tar unpack /Users/exceed/.npm/node-gyp/3.4.0/package.tgz
+496 verbose tar unpacking to /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3
+497 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3 is being purged
+498 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3
+499 silly gunzTarPerm modes [ '755', '644' ]
+500 silly gunzTarPerm modes [ '755', '644' ]
+501 silly gunzTarPerm extractEntry package.json
+502 silly gunzTarPerm extractEntry package.json
+503 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+504 silly gunzTarPerm extractEntry package.json
+505 silly gunzTarPerm extractEntry package.json
+506 silly gunzTarPerm extractEntry package.json
+507 silly gunzTarPerm extractEntry package.json
+508 silly gunzTarPerm extractEntry package.json
+509 silly gunzTarPerm extractEntry package.json
+510 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+511 silly gunzTarPerm extractEntry package.json
+512 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+513 silly gunzTarPerm extractEntry package.json
+514 silly gunzTarPerm extractEntry package.json
+515 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+516 silly gunzTarPerm extractEntry package.json
+517 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+518 silly gunzTarPerm extractEntry package.json
+519 silly gunzTarPerm extractEntry README.md
+520 silly gunzTarPerm extractEntry bindings.js
+521 silly gunzTarPerm extractEntry README.md
+522 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+523 silly gunzTarPerm extractEntry .npmignore
+524 silly gunzTarPerm extractEntry README.md
+525 silly gunzTarPerm extractEntry .npmignore
+526 silly gunzTarPerm extractEntry README.md
+527 silly gunzTarPerm extractEntry .npmignore
+528 silly gunzTarPerm extractEntry README.md
+529 silly gunzTarPerm extractEntry .npmignore
+530 silly gunzTarPerm extractEntry README.md
+531 silly gunzTarPerm extractEntry .npmignore
+532 silly gunzTarPerm extractEntry README.md
+533 silly gunzTarPerm extractEntry LICENSE
+534 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+535 silly gunzTarPerm extractEntry index.js
+536 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+537 silly gunzTarPerm extractEntry index.js
+538 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+539 silly gunzTarPerm extractEntry Changes.md
+540 silly gunzTarPerm modified mode [ 'Changes.md', 438, 420 ]
+541 silly gunzTarPerm extractEntry include_dirs.js
+542 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+543 silly gunzTarPerm extractEntry .npmignore
+544 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+545 silly gunzTarPerm extractEntry README.md
+546 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+547 silly gunzTarPerm extractEntry .npmignore
+548 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+549 silly gunzTarPerm extractEntry README.md
+550 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+551 silly gunzTarPerm extractEntry .npmignore
+552 silly gunzTarPerm extractEntry README.md
+553 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+554 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+555 silly gunzTarPerm extractEntry CHANGELOG.md
+556 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+557 silly gunzTarPerm extractEntry LICENSE.md
+558 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+559 silly gunzTarPerm extractEntry .jshintrc
+560 silly gunzTarPerm extractEntry .travis.yml
+561 silly gunzTarPerm extractEntry LICENSE
+562 silly gunzTarPerm extractEntry CONTRIBUTING.md
+563 silly gunzTarPerm extractEntry LICENSE
+564 silly gunzTarPerm extractEntry test2.js
+565 silly gunzTarPerm extractEntry History.md
+566 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+567 silly gunzTarPerm extractEntry Readme.md
+568 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+569 silly gunzTarPerm extractEntry lib/application.js
+570 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+571 silly gunzTarPerm extractEntry lib/express.js
+572 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+573 silly gunzTarPerm extractEntry lib/request.js
+574 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+575 silly gunzTarPerm extractEntry lib/response.js
+576 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+577 silly gunzTarPerm extractEntry lib/utils.js
+578 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+579 silly gunzTarPerm extractEntry lib/view.js
+580 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+581 silly gunzTarPerm extractEntry lib/middleware/init.js
+582 silly gunzTarPerm modified mode [ 'lib/middleware/init.js', 438, 420 ]
+583 silly gunzTarPerm extractEntry lib/middleware/query.js
+584 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 420 ]
+585 silly gunzTarPerm extractEntry lib/router/index.js
+586 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+587 silly gunzTarPerm extractEntry lib/router/layer.js
+588 silly gunzTarPerm modified mode [ 'lib/router/layer.js', 438, 420 ]
+589 silly gunzTarPerm extractEntry lib/router/route.js
+590 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+591 silly gunzTarPerm extractEntry License
+592 silly gunzTarPerm modified mode [ 'License', 438, 420 ]
+593 silly gunzTarPerm extractEntry Cakefile
+594 silly gunzTarPerm extractEntry bin/index.js
+595 silly gunzTarPerm extractEntry appveyor.yml
+596 silly gunzTarPerm extractEntry binding.gyp
+597 silly gunzTarPerm extractEntry LICENSE
+598 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+599 silly gunzTarPerm extractEntry coffee/lib/create-pipes.coffee
+600 silly gunzTarPerm modified mode [ 'coffee/lib/create-pipes.coffee', 436, 420 ]
+601 silly gunzTarPerm extractEntry LICENSE
+602 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+603 silly gunzTarPerm extractEntry cli.js
+604 silly gunzTarPerm modified mode [ 'cli.js', 438, 420 ]
+605 silly gunzTarPerm extractEntry LICENSE
+606 silly gunzTarPerm extractEntry 0002-gyp-apply-https-codereview.chromium.org-11361103.patch
+607 silly gunzTarPerm modified mode [ '0002-gyp-apply-https-codereview.chromium.org-11361103.patch',
+607 silly gunzTarPerm   436,
+607 silly gunzTarPerm   420 ]
+608 silly gunzTarPerm extractEntry doc/node_misc.md
+609 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+610 silly gunzTarPerm extractEntry test.js
+611 silly gunzTarPerm extractEntry binding.gyp
+612 silly gunzTarPerm extractEntry History.md
+613 silly gunzTarPerm extractEntry appveyor.yml
+614 silly gunzTarPerm extractEntry .eslintrc
+615 silly gunzTarPerm extractEntry lib/index.js
+616 silly gunzTarPerm extractEntry .travis.yml
+617 silly gunzTarPerm extractEntry test/basic-auth.js
+618 silly gunzTarPerm extractEntry test/body-events.js
+619 silly gunzTarPerm extractEntry test/cors.js
+620 silly gunzTarPerm extractEntry test/error-response.js
+621 silly gunzTarPerm extractEntry test/example-app.js
+622 silly gunzTarPerm extractEntry test/issue-2.js
+623 silly gunzTarPerm extractEntry test/issue-31.js
+624 silly gunzTarPerm extractEntry test/mocha.opts
+625 silly gunzTarPerm extractEntry src/README.md
+626 silly gunzTarPerm extractEntry src/index.coffee
+627 silly gunzTarPerm extractEntry coffee/lib/proxy.coffee
+628 silly gunzTarPerm modified mode [ 'coffee/lib/proxy.coffee', 436, 420 ]
+629 silly gunzTarPerm extractEntry coffee/lib/read-pipes.coffee
+630 silly gunzTarPerm modified mode [ 'coffee/lib/read-pipes.coffee', 436, 420 ]
+631 silly gunzTarPerm extractEntry .travis.yml
+632 silly gunzTarPerm extractEntry docs/compile.js
+633 silly gunzTarPerm extractEntry Readme.md
+634 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+635 silly gunzTarPerm extractEntry lib/Connection.js
+636 silly gunzTarPerm modified mode [ 'lib/Connection.js', 438, 420 ]
+637 silly gunzTarPerm extractEntry lib/ConnectionConfig.js
+638 silly gunzTarPerm modified mode [ 'lib/ConnectionConfig.js', 438, 420 ]
+639 silly gunzTarPerm extractEntry 0003-gyp-don-t-use-links-at-all-just-copy-the-files-inste.patch
+640 silly gunzTarPerm modified mode [ '0003-gyp-don-t-use-links-at-all-just-copy-the-files-inste.patch',
+640 silly gunzTarPerm   436,
+640 silly gunzTarPerm   420 ]
+641 silly gunzTarPerm extractEntry doc/asyncworker.md
+642 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+643 silly gunzTarPerm extractEntry doc/callback.md
+644 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+645 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80/node_modules is being purged
+646 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80/node_modules
+647 silly gunzTarPerm extractEntry lib/struct.js
+648 silly gunzTarPerm extractEntry deps/dlfcn-win32/README
+649 silly gunzTarPerm extractEntry deps/dlfcn-win32/COPYING
+650 silly gunzTarPerm extractEntry coffee/lib/timeout.coffee
+651 silly gunzTarPerm modified mode [ 'coffee/lib/timeout.coffee', 436, 420 ]
+652 silly gunzTarPerm extractEntry coffee/sync-exec.coffee
+653 silly gunzTarPerm modified mode [ 'coffee/sync-exec.coffee', 436, 420 ]
+654 silly gunzTarPerm extractEntry docs/gh-pages.sh
+655 silly gunzTarPerm extractEntry lib/Pool.js
+656 silly gunzTarPerm modified mode [ 'lib/Pool.js', 438, 420 ]
+657 silly gunzTarPerm extractEntry lib/PoolCluster.js
+658 silly gunzTarPerm modified mode [ 'lib/PoolCluster.js', 438, 420 ]
+659 silly gunzTarPerm extractEntry CHANGELOG.md
+660 silly gunzTarPerm extractEntry History.md
+661 silly gunzTarPerm extractEntry doc/converters.md
+662 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+663 silly gunzTarPerm extractEntry doc/errors.md
+664 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+665 silly gunzTarPerm extractEntry deps/dlfcn-win32/configure
+666 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+667 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+668 silly gunzTarPerm extractEntry lib/PoolConfig.js
+669 silly gunzTarPerm modified mode [ 'lib/PoolConfig.js', 438, 420 ]
+670 silly gunzTarPerm extractEntry lib/PoolConnection.js
+671 silly gunzTarPerm modified mode [ 'lib/PoolConnection.js', 438, 420 ]
+672 silly gunzTarPerm extractEntry lib/PoolNamespace.js
+673 silly gunzTarPerm modified mode [ 'lib/PoolNamespace.js', 438, 420 ]
+674 silly gunzTarPerm extractEntry doc/maybe_types.md
+675 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+676 silly gunzTarPerm extractEntry doc/methods.md
+677 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+678 silly gunzTarPerm extractEntry js/sync-exec.js
+679 silly gunzTarPerm modified mode [ 'js/sync-exec.js', 436, 420 ]
+680 silly gunzTarPerm extractEntry js/lib/create-pipes.js
+681 silly gunzTarPerm modified mode [ 'js/lib/create-pipes.js', 436, 420 ]
+682 silly gunzTarPerm extractEntry js/lib/proxy.js
+683 silly gunzTarPerm modified mode [ 'js/lib/proxy.js', 436, 420 ]
+684 silly gunzTarPerm extractEntry js/lib/read-pipes.js
+685 silly gunzTarPerm modified mode [ 'js/lib/read-pipes.js', 436, 420 ]
+686 silly gunzTarPerm extractEntry js/lib/timeout.js
+687 silly gunzTarPerm modified mode [ 'js/lib/timeout.js', 436, 420 ]
+688 silly gunzTarPerm extractEntry Makefile
+689 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+690 silly gunzTarPerm extractEntry test/example.coffee
+691 silly gunzTarPerm modified mode [ 'test/example.coffee', 436, 420 ]
+692 silly gunzTarPerm extractEntry test/sh/err.sh
+693 silly gunzTarPerm modified mode [ 'test/sh/err.sh', 509, 493 ]
+694 silly gunzTarPerm extractEntry test/sh/out.sh
+695 silly gunzTarPerm modified mode [ 'test/sh/out.sh', 509, 493 ]
+696 silly gunzTarPerm extractEntry .jshintrc
+697 silly gunzTarPerm extractEntry addon.gypi
+698 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68/node_modules is being purged
+699 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68/node_modules
+700 silly gunzTarPerm extractEntry lib/PoolSelector.js
+701 silly gunzTarPerm modified mode [ 'lib/PoolSelector.js', 438, 420 ]
+702 silly gunzTarPerm extractEntry lib/protocol/Auth.js
+703 silly gunzTarPerm modified mode [ 'lib/protocol/Auth.js', 438, 420 ]
+704 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+705 silly gunzTarPerm extractEntry docs/images/favicon.ico
+706 silly gunzTarPerm extractEntry deps/dlfcn-win32/dlfcn.c
+707 silly gunzTarPerm extractEntry deps/dlfcn-win32/dlfcn.gyp
+708 silly gunzTarPerm extractEntry bin/node-gyp.js
+709 silly gunzTarPerm extractEntry gyp/.npmignore
+710 silly gunzTarPerm extractEntry doc/new.md
+711 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+712 silly gunzTarPerm extractEntry doc/buffers.md
+713 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+714 silly gunzTarPerm extractEntry lib/protocol/PacketHeader.js
+715 silly gunzTarPerm modified mode [ 'lib/protocol/PacketHeader.js', 438, 420 ]
+716 silly gunzTarPerm extractEntry lib/protocol/PacketWriter.js
+717 silly gunzTarPerm modified mode [ 'lib/protocol/PacketWriter.js', 438, 420 ]
+718 silly gunzTarPerm extractEntry docs/images/ref.pxm
+719 silly gunzTarPerm extractEntry docs/index.jade
+720 silly gunzTarPerm extractEntry doc/object_wrappers.md
+721 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+722 silly gunzTarPerm extractEntry deps/dlfcn-win32/dlfcn.h
+723 silly gunzTarPerm extractEntry deps/dlfcn-win32/test.c
+724 silly gunzTarPerm extractEntry gyp/LICENSE
+725 silly gunzTarPerm extractEntry gyp/DEPS
+726 silly gunzTarPerm extractEntry doc/persistent.md
+727 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+728 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710/node_modules is being purged
+729 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710/node_modules
+730 silly gunzTarPerm extractEntry lib/protocol/Parser.js
+731 silly gunzTarPerm modified mode [ 'lib/protocol/Parser.js', 438, 420 ]
+732 silly gunzTarPerm extractEntry lib/protocol/Protocol.js
+733 silly gunzTarPerm modified mode [ 'lib/protocol/Protocol.js', 438, 420 ]
+734 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+735 silly gunzTarPerm extractEntry docs/scripts/main.js
+736 silly gunzTarPerm extractEntry gyp/tools/README
+737 silly gunzTarPerm extractEntry gyp/tools/Xcode/README
+738 silly gunzTarPerm extractEntry deps/dlfcn-win32/testdll.c
+739 silly gunzTarPerm extractEntry deps/libffi/.npmignore
+740 silly gunzTarPerm extractEntry doc/scopes.md
+741 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+742 silly gunzTarPerm extractEntry doc/script.md
+743 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+744 silly gunzTarPerm extractEntry lib/protocol/ResultSet.js
+745 silly gunzTarPerm modified mode [ 'lib/protocol/ResultSet.js', 438, 420 ]
+746 silly gunzTarPerm extractEntry lib/protocol/SqlString.js
+747 silly gunzTarPerm modified mode [ 'lib/protocol/SqlString.js', 438, 420 ]
+748 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+749 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+750 silly gunzTarPerm extractEntry gyp/tools/Xcode/Specifications/gyp.pbfilespec
+751 silly gunzTarPerm extractEntry gyp/tools/Xcode/Specifications/gyp.xclangspec
+752 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2/node_modules is being purged
+753 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2/node_modules
+754 silly gunzTarPerm extractEntry doc/string_bytes.md
+755 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+756 silly gunzTarPerm extractEntry doc/v8_internals.md
+757 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+758 silly gunzTarPerm extractEntry deps/libffi/README
+759 silly gunzTarPerm extractEntry deps/libffi/LICENSE
+760 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.libgcj
+761 silly gunzTarPerm extractEntry lib/protocol/constants/charsets.js
+762 silly gunzTarPerm modified mode [ 'lib/protocol/constants/charsets.js', 438, 420 ]
+763 silly gunzTarPerm extractEntry lib/protocol/constants/client.js
+764 silly gunzTarPerm modified mode [ 'lib/protocol/constants/client.js', 438, 420 ]
+765 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.v1
+766 silly gunzTarPerm extractEntry gyp/tools/emacs/README
+767 silly gunzTarPerm extractEntry gyp/tools/emacs/gyp-tests.el
+768 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+769 silly gunzTarPerm extractEntry lib/ref.js
+770 silly gunzTarPerm extractEntry src/binding.cc
+771 silly gunzTarPerm extractEntry History.md
+772 silly gunzTarPerm extractEntry test/address.js
+773 silly gunzTarPerm extractEntry test/coerce.js
+774 silly gunzTarPerm extractEntry test/int64.js
+775 silly gunzTarPerm extractEntry test/iojs3issue.js
+776 silly gunzTarPerm extractEntry test/isNull.js
+777 silly gunzTarPerm extractEntry test/char.js
+778 silly gunzTarPerm extractEntry test/pointer.js
+779 silly gunzTarPerm extractEntry test/ref-deref.js
+780 silly gunzTarPerm extractEntry test/reinterpret.js
+781 silly gunzTarPerm extractEntry test/reinterpretUntilZeros.js
+782 silly gunzTarPerm extractEntry test/string.js
+783 silly gunzTarPerm extractEntry test/bool.js
+784 silly gunzTarPerm extractEntry test/types.js
+785 silly gunzTarPerm extractEntry test/alloc.js
+786 silly gunzTarPerm extractEntry test/object.js
+787 silly gunzTarPerm extractEntry test/utf16le.bin
+788 silly gunzTarPerm extractEntry doc/v8_misc.md
+789 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+790 silly gunzTarPerm extractEntry nan.h
+791 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+792 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64/node_modules is being purged
+793 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64/node_modules
+794 silly gunzTarPerm extractEntry lib/protocol/constants/errors.js
+795 silly gunzTarPerm modified mode [ 'lib/protocol/constants/errors.js', 438, 420 ]
+796 silly gunzTarPerm extractEntry deps/libffi/texinfo.tex
+797 silly gunzTarPerm extractEntry gyp/tools/emacs/gyp.el
+798 silly gunzTarPerm modified mode [ 'gyp/tools/emacs/gyp.el', 436, 420 ]
+799 silly gunzTarPerm extractEntry gyp/tools/emacs/run-unit-tests.sh
+800 silly gunzTarPerm extractEntry lib/protocol/constants/field_flags.js
+801 silly gunzTarPerm modified mode [ 'lib/protocol/constants/field_flags.js', 438, 420 ]
+802 silly gunzTarPerm extractEntry deps/libffi/Makefile.am
+803 silly gunzTarPerm extractEntry nan_callbacks.h
+804 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+805 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+806 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+807 silly gunzTarPerm extractEntry lib/protocol/constants/server_status.js
+808 silly gunzTarPerm modified mode [ 'lib/protocol/constants/server_status.js', 438, 420 ]
+809 silly gunzTarPerm extractEntry lib/protocol/constants/ssl_profiles.js
+810 silly gunzTarPerm modified mode [ 'lib/protocol/constants/ssl_profiles.js', 438, 420 ]
+811 silly gunzTarPerm extractEntry deps/libffi/Makefile.in
+812 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.libffi
+813 silly gunzTarPerm extractEntry gyp/tools/emacs/testdata/media.gyp
+814 silly gunzTarPerm extractEntry gyp/tools/emacs/testdata/media.gyp.fontified
+815 silly gunzTarPerm extractEntry nan_converters.h
+816 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+817 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+818 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+819 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+820 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+821 silly gunzTarPerm extractEntry lib/protocol/constants/types.js
+822 silly gunzTarPerm modified mode [ 'lib/protocol/constants/types.js', 438, 420 ]
+823 silly gunzTarPerm extractEntry deps/libffi/acinclude.m4
+824 silly gunzTarPerm extractEntry deps/libffi/aclocal.m4
+825 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+826 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+827 silly gunzTarPerm extractEntry gyp/tools/graphviz.py
+828 silly gunzTarPerm extractEntry gyp/tools/pretty_gyp.py
+829 silly gunzTarPerm extractEntry lib/protocol/packets/ClientAuthenticationPacket.js
+830 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ClientAuthenticationPacket.js',
+830 silly gunzTarPerm   438,
+830 silly gunzTarPerm   420 ]
+831 silly gunzTarPerm extractEntry lib/protocol/packets/EofPacket.js
+832 silly gunzTarPerm modified mode [ 'lib/protocol/packets/EofPacket.js', 438, 420 ]
+833 silly gunzTarPerm extractEntry deps/libffi/closure.c
+834 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+835 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+836 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+837 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+838 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+839 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+840 silly gunzTarPerm extractEntry nan_new.h
+841 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+842 silly gunzTarPerm extractEntry gyp/tools/pretty_sln.py
+843 silly gunzTarPerm modified mode [ 'gyp/tools/pretty_sln.py', 509, 493 ]
+844 silly gunzTarPerm extractEntry gyp/tools/pretty_vcproj.py
+845 silly gunzTarPerm extractEntry lib/protocol/packets/ErrorPacket.js
+846 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ErrorPacket.js', 438, 420 ]
+847 silly gunzTarPerm extractEntry lib/protocol/packets/Field.js
+848 silly gunzTarPerm modified mode [ 'lib/protocol/packets/Field.js', 438, 420 ]
+849 silly gunzTarPerm extractEntry deps/libffi/compile
+850 silly gunzTarPerm extractEntry deps/libffi/config/README
+851 silly gunzTarPerm extractEntry gyp/OWNERS
+852 silly gunzTarPerm extractEntry gyp/PRESUBMIT.py
+853 silly gunzTarPerm extractEntry nan_object_wrap.h
+854 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+855 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+856 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+857 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/ia32/ffi.h
+858 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/ia32/fficonfig.h
+859 silly gunzTarPerm extractEntry lib/protocol/packets/EmptyPacket.js
+860 silly gunzTarPerm modified mode [ 'lib/protocol/packets/EmptyPacket.js', 438, 420 ]
+861 silly gunzTarPerm extractEntry lib/protocol/packets/HandshakeInitializationPacket.js
+862 silly gunzTarPerm modified mode [ 'lib/protocol/packets/HandshakeInitializationPacket.js',
+862 silly gunzTarPerm   438,
+862 silly gunzTarPerm   420 ]
+863 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+864 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+865 silly gunzTarPerm extractEntry nan_string_bytes.h
+866 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+867 silly gunzTarPerm extractEntry gyp/buildbot/aosp_manifest.xml
+868 silly gunzTarPerm modified mode [ 'gyp/buildbot/aosp_manifest.xml', 436, 420 ]
+869 silly gunzTarPerm extractEntry gyp/buildbot/buildbot_run.py
+870 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/ia32/ffitarget.h
+871 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/x64/ffi.h
+872 silly gunzTarPerm extractEntry lib/protocol/packets/LocalDataFilePacket.js
+873 silly gunzTarPerm modified mode [ 'lib/protocol/packets/LocalDataFilePacket.js', 438, 420 ]
+874 silly gunzTarPerm extractEntry lib/protocol/packets/OkPacket.js
+875 silly gunzTarPerm modified mode [ 'lib/protocol/packets/OkPacket.js', 438, 420 ]
+876 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+877 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+878 silly gunzTarPerm extractEntry nan_weak.h
+879 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+880 silly gunzTarPerm extractEntry gyp/buildbot/commit_queue/README
+881 silly gunzTarPerm modified mode [ 'gyp/buildbot/commit_queue/README', 436, 420 ]
+882 silly gunzTarPerm extractEntry gyp/buildbot/commit_queue/OWNERS
+883 silly gunzTarPerm modified mode [ 'gyp/buildbot/commit_queue/OWNERS', 436, 420 ]
+884 silly gunzTarPerm extractEntry lib/protocol/packets/OldPasswordPacket.js
+885 silly gunzTarPerm modified mode [ 'lib/protocol/packets/OldPasswordPacket.js', 438, 420 ]
+886 silly gunzTarPerm extractEntry lib/protocol/packets/ResultSetHeaderPacket.js
+887 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ResultSetHeaderPacket.js', 438, 420 ]
+888 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/x64/fficonfig.h
+889 silly gunzTarPerm extractEntry deps/libffi/config/freebsd/x64/ffitarget.h
+890 silly gunzTarPerm extractEntry tools/package.json
+891 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+892 silly gunzTarPerm extractEntry tools/README.md
+893 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+894 silly gunzTarPerm extractEntry gyp/buildbot/commit_queue/cq_config.json
+895 silly gunzTarPerm extractEntry gyp/codereview.settings
+896 silly gunzTarPerm modified mode [ 'gyp/codereview.settings', 436, 420 ]
+897 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856/node_modules is being purged
+898 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856/node_modules
+899 silly gunzTarPerm extractEntry lib/protocol/packets/ComStatisticsPacket.js
+900 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComStatisticsPacket.js', 438, 420 ]
+901 silly gunzTarPerm extractEntry lib/protocol/packets/RowDataPacket.js
+902 silly gunzTarPerm modified mode [ 'lib/protocol/packets/RowDataPacket.js', 438, 420 ]
+903 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/ffi.h
+904 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/fficonfig.h
+905 silly gunzTarPerm extractEntry tools/1to2.js
+906 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+907 silly gunzTarPerm extractEntry gyp/AUTHORS
+908 silly gunzTarPerm extractEntry gyp/gyp
+909 silly gunzTarPerm modified mode [ 'gyp/gyp', 509, 493 ]
+910 silly gunzTarPerm extractEntry lib/protocol/packets/ComQuitPacket.js
+911 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComQuitPacket.js', 438, 420 ]
+912 silly gunzTarPerm extractEntry lib/protocol/packets/SSLRequestPacket.js
+913 silly gunzTarPerm modified mode [ 'lib/protocol/packets/SSLRequestPacket.js', 438, 420 ]
+914 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/ffitarget.h
+915 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/flags.txt
+916 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d/node_modules is being purged
+917 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d/node_modules
+918 silly gunzTarPerm extractEntry gyp/gyp.bat
+919 silly gunzTarPerm extractEntry gyp/gyp_main.py
+920 silly gunzTarPerm extractEntry lib/protocol/packets/ComQueryPacket.js
+921 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComQueryPacket.js', 438, 420 ]
+922 silly gunzTarPerm extractEntry lib/protocol/packets/StatisticsPacket.js
+923 silly gunzTarPerm modified mode [ 'lib/protocol/packets/StatisticsPacket.js', 438, 420 ]
+924 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/ffi.h
+925 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/fficonfig.h
+926 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/ffitarget.h
+927 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/flags.txt
+928 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd/node_modules is being purged
+929 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd/node_modules
+930 silly gunzTarPerm extractEntry lib/protocol/packets/ComPingPacket.js
+931 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComPingPacket.js', 438, 420 ]
+932 silly gunzTarPerm extractEntry lib/protocol/packets/UseOldPasswordPacket.js
+933 silly gunzTarPerm modified mode [ 'lib/protocol/packets/UseOldPasswordPacket.js', 438, 420 ]
+934 silly gunzTarPerm extractEntry gyp/gyptest.py
+935 silly gunzTarPerm modified mode [ 'gyp/gyptest.py', 509, 493 ]
+936 silly gunzTarPerm extractEntry gyp/pylib/gyp/flock_tool.py
+937 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/flock_tool.py', 509, 493 ]
+938 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/ffi.h
+939 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/fficonfig.h
+940 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/ffitarget.h
+941 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/flags.txt
+942 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSNew.py
+943 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/MSVSNew.py', 436, 420 ]
+944 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSSettings.py
+945 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/ffi.h
+946 silly gunzTarPerm extractEntry lib/protocol/packets/ComChangeUserPacket.js
+947 silly gunzTarPerm modified mode [ 'lib/protocol/packets/ComChangeUserPacket.js', 438, 420 ]
+948 silly gunzTarPerm extractEntry lib/protocol/packets/index.js
+949 silly gunzTarPerm modified mode [ 'lib/protocol/packets/index.js', 438, 420 ]
+950 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/fficonfig.h
+951 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/ffitarget.h
+952 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/flags.txt
+953 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSSettings_test.py
+954 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSToolFile.py
+955 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSUserFile.py
+956 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/ffi.h
+957 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSUtil.py
+958 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/MSVSUtil.py', 436, 420 ]
+959 silly gunzTarPerm extractEntry lib/protocol/packets/FieldPacket.js
+960 silly gunzTarPerm modified mode [ 'lib/protocol/packets/FieldPacket.js', 438, 420 ]
+961 silly gunzTarPerm extractEntry lib/protocol/sequences/ChangeUser.js
+962 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/ChangeUser.js', 438, 420 ]
+963 silly gunzTarPerm extractEntry lib/protocol/sequences/Handshake.js
+964 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Handshake.js', 438, 420 ]
+965 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/fficonfig.h
+966 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSVersion.py
+967 silly gunzTarPerm extractEntry lib/protocol/sequences/Ping.js
+968 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Ping.js', 438, 420 ]
+969 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/ffitarget.h
+970 silly gunzTarPerm extractEntry lib/protocol/sequences/Query.js
+971 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Query.js', 438, 420 ]
+972 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/flags.txt
+973 silly gunzTarPerm extractEntry lib/protocol/sequences/Quit.js
+974 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Quit.js', 438, 420 ]
+975 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/ffi.h
+976 silly gunzTarPerm extractEntry lib/protocol/sequences/Sequence.js
+977 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Sequence.js', 438, 420 ]
+978 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/fficonfig.h
+979 silly gunzTarPerm extractEntry lib/protocol/sequences/Statistics.js
+980 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/Statistics.js', 438, 420 ]
+981 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/ffitarget.h
+982 silly gunzTarPerm extractEntry lib/protocol/sequences/index.js
+983 silly gunzTarPerm modified mode [ 'lib/protocol/sequences/index.js', 438, 420 ]
+984 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/flags.txt
+985 silly gunzTarPerm extractEntry gyp/pylib/gyp/__init__.py
+986 silly gunzTarPerm extractEntry gyp/pylib/gyp/common.py
+987 silly gunzTarPerm extractEntry gyp/pylib/gyp/common_test.py
+988 silly gunzTarPerm extractEntry gyp/pylib/gyp/easy_xml.py
+989 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/easy_xml.py', 436, 420 ]
+990 silly gunzTarPerm extractEntry gyp/pylib/gyp/easy_xml_test.py
+991 silly gunzTarPerm extractEntry gyp/pylib/gyp/MSVSProject.py
+992 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/gypsh.py
+993 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/ffi.h
+994 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/fficonfig.h
+995 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/__init__.py
+996 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/android.py
+997 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/cmake.py
+998 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/dump_dependency_json.py
+999 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/ffitarget.h
+1000 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/flags.txt
+1001 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/ffi.h
+1002 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/fficonfig.h
+1003 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/ffitarget.h
+1004 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/flags.txt
+1005 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/ffi.h
+1006 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/eclipse.py
+1007 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/generator/eclipse.py', 436, 420 ]
+1008 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/gypd.py
+1009 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/generator/gypd.py', 436, 420 ]
+1010 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/fficonfig.h
+1011 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/ffitarget.h
+1012 silly gunzTarPerm extractEntry deps/libffi/config.guess
+1013 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/analyzer.py
+1014 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/make.py
+1015 silly gunzTarPerm extractEntry deps/libffi/config.sub
+1016 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/msvs.py
+1017 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/msvs_test.py
+1018 silly gunzTarPerm extractEntry deps/libffi/configure
+1019 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/ninja.py
+1020 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/ninja_test.py
+1021 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/generator/ninja_test.py', 436, 420 ]
+1022 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/xcode.py
+1023 silly gunzTarPerm extractEntry gyp/pylib/gyp/generator/xcode_test.py
+1024 silly gunzTarPerm extractEntry gyp/pylib/gyp/input.py
+1025 silly gunzTarPerm extractEntry gyp/pylib/gyp/input_test.py
+1026 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/input_test.py', 509, 493 ]
+1027 silly gunzTarPerm extractEntry gyp/pylib/gyp/mac_tool.py
+1028 silly gunzTarPerm extractEntry gyp/pylib/gyp/msvs_emulation.py
+1029 silly gunzTarPerm extractEntry gyp/pylib/gyp/ninja_syntax.py
+1030 silly gunzTarPerm extractEntry gyp/pylib/gyp/ordered_dict.py
+1031 silly gunzTarPerm extractEntry deps/libffi/configure.ac
+1032 silly gunzTarPerm extractEntry deps/libffi/configure.host
+1033 silly gunzTarPerm extractEntry gyp/pylib/gyp/simple_copy.py
+1034 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/simple_copy.py', 436, 420 ]
+1035 silly gunzTarPerm extractEntry gyp/pylib/gyp/win_tool.py
+1036 silly gunzTarPerm extractEntry deps/libffi/depcomp
+1037 silly gunzTarPerm extractEntry deps/libffi/ChangeLog
+1038 silly gunzTarPerm extractEntry gyp/pylib/gyp/xcode_emulation.py
+1039 silly gunzTarPerm extractEntry gyp/pylib/gyp/xcode_ninja.py
+1040 silly gunzTarPerm modified mode [ 'gyp/pylib/gyp/xcode_ninja.py', 436, 420 ]
+1041 silly gunzTarPerm extractEntry gyp/pylib/gyp/xcodeproj_file.py
+1042 silly gunzTarPerm extractEntry gyp/pylib/gyp/xml_fix.py
+1043 silly gunzTarPerm extractEntry deps/libffi/fficonfig.h.in
+1044 silly gunzTarPerm extractEntry deps/libffi/generate-ios-source-and-headers.py
+1045 silly gunzTarPerm extractEntry deps/libffi/generate-osx-source-and-headers.py
+1046 silly gunzTarPerm extractEntry gyp/samples/samples
+1047 silly gunzTarPerm extractEntry gyp/samples/samples.bat
+1048 silly gunzTarPerm extractEntry deps/libffi/include/Makefile.am
+1049 silly gunzTarPerm extractEntry deps/libffi/include/Makefile.in
+1050 silly gunzTarPerm extractEntry gyp/setup.py
+1051 silly gunzTarPerm extractEntry gyp/data/win/large-pdb-shim.cc
+1052 silly gunzTarPerm extractEntry deps/libffi/include/ffi.h.in
+1053 silly gunzTarPerm extractEntry lib/build.js
+1054 silly gunzTarPerm extractEntry lib/clean.js
+1055 silly gunzTarPerm extractEntry lib/configure.js
+1056 silly gunzTarPerm extractEntry lib/find-node-directory.js
+1057 silly gunzTarPerm extractEntry deps/libffi/include/ffi_common.h
+1058 silly gunzTarPerm extractEntry deps/libffi/install-sh
+1059 silly gunzTarPerm extractEntry lib/install.js
+1060 silly gunzTarPerm extractEntry lib/list.js
+1061 silly gunzTarPerm extractEntry deps/libffi/libffi.gyp
+1062 silly gunzTarPerm extractEntry deps/libffi/libffi.pc.in
+1063 silly gunzTarPerm extractEntry lib/node-gyp.js
+1064 silly gunzTarPerm extractEntry lib/process-release.js
+1065 silly gunzTarPerm modified mode [ 'lib/process-release.js', 436, 420 ]
+1066 silly gunzTarPerm extractEntry deps/libffi/libffi.xcodeproj/project.pbxproj
+1067 silly gunzTarPerm extractEntry deps/libffi/libtool-version
+1068 silly gunzTarPerm extractEntry lib/rebuild.js
+1069 silly gunzTarPerm modified mode [ 'lib/rebuild.js', 436, 420 ]
+1070 silly gunzTarPerm extractEntry lib/remove.js
+1071 silly gunzTarPerm extractEntry src/win_delay_load_hook.cc
+1072 silly gunzTarPerm extractEntry 0001-gyp-always-install-into-PRODUCT_DIR.patch
+1073 silly gunzTarPerm modified mode [ '0001-gyp-always-install-into-PRODUCT_DIR.patch', 436, 420 ]
+1074 silly gunzTarPerm extractEntry deps/libffi/ltmain.sh
+1075 silly gunzTarPerm extractEntry deps/libffi/m4/ax_gcc_archflag.m4
+1076 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397/node_modules is being purged
+1077 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397/node_modules
+1078 silly gunzTarPerm extractEntry deps/libffi/m4/asmcfi.m4
+1079 silly gunzTarPerm extractEntry deps/libffi/m4/ax_cflags_warn_all.m4
+1080 silly gunzTarPerm extractEntry test/simple-proxy.js
+1081 silly gunzTarPerm extractEntry test/test-addon.js
+1082 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb/node_modules is being purged
+1083 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb/node_modules
+1084 silly gunzTarPerm extractEntry deps/libffi/m4/ax_compiler_vendor.m4
+1085 silly gunzTarPerm extractEntry deps/libffi/m4/ax_configure_args.m4
+1086 silly gunzTarPerm extractEntry test/test-download.js
+1087 silly gunzTarPerm extractEntry test/test-find-accessible-sync.js
+1088 silly gunzTarPerm extractEntry deps/libffi/m4/ax_enable_builddir.m4
+1089 silly gunzTarPerm extractEntry deps/libffi/m4/ax_cc_maxopt.m4
+1090 silly gunzTarPerm extractEntry test/test-find-node-directory.js
+1091 silly gunzTarPerm extractEntry test/test-find-python.js
+1092 silly gunzTarPerm extractEntry test/test-options.js
+1093 silly gunzTarPerm extractEntry test/test-process-release.js
+1094 silly gunzTarPerm modified mode [ 'test/test-process-release.js', 436, 420 ]
+1095 silly gunzTarPerm extractEntry test/docker.sh
+1096 silly gunzTarPerm modified mode [ 'test/docker.sh', 509, 493 ]
+1097 silly gunzTarPerm extractEntry test/fixtures/ca-bundle.crt
+1098 silly gunzTarPerm extractEntry test/fixtures/ca.crt
+1099 silly gunzTarPerm extractEntry test/fixtures/server.crt
+1100 silly gunzTarPerm extractEntry test/fixtures/server.key
+1101 silly gunzTarPerm extractEntry deps/libffi/m4/ax_gcc_x86_cpuid.m4
+1102 silly gunzTarPerm extractEntry deps/libffi/m4/libtool.m4
+1103 silly gunzTarPerm extractEntry deps/libffi/m4/ltoptions.m4
+1104 silly gunzTarPerm extractEntry deps/libffi/m4/ltsugar.m4
+1105 silly gunzTarPerm extractEntry deps/libffi/m4/ltversion.m4
+1106 silly gunzTarPerm extractEntry deps/libffi/m4/lt~obsolete.m4
+1107 silly gunzTarPerm extractEntry deps/libffi/man/Makefile.am
+1108 silly gunzTarPerm extractEntry deps/libffi/man/Makefile.in
+1109 silly gunzTarPerm extractEntry deps/libffi/man/ffi.3
+1110 silly gunzTarPerm extractEntry deps/libffi/man/ffi_call.3
+1111 silly gunzTarPerm extractEntry deps/libffi/man/ffi_prep_cif.3
+1112 silly gunzTarPerm extractEntry deps/libffi/man/ffi_prep_cif_var.3
+1113 silly gunzTarPerm extractEntry deps/libffi/mdate-sh
+1114 silly gunzTarPerm extractEntry deps/libffi/missing
+1115 silly gunzTarPerm extractEntry deps/libffi/msvcc.sh
+1116 silly gunzTarPerm extractEntry deps/libffi/src/mips/ffi.c
+1117 silly gunzTarPerm extractEntry deps/libffi/src/mips/ffitarget.h
+1118 silly gunzTarPerm extractEntry deps/libffi/src/mips/n32.S
+1119 silly gunzTarPerm extractEntry deps/libffi/src/mips/o32.S
+1120 silly gunzTarPerm extractEntry deps/libffi/src/alpha/ffi.c
+1121 silly gunzTarPerm extractEntry deps/libffi/src/alpha/ffitarget.h
+1122 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782/node_modules is being purged
+1123 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782/node_modules
+1124 silly gunzTarPerm extractEntry deps/libffi/src/alpha/osf.S
+1125 silly gunzTarPerm extractEntry deps/libffi/src/avr32/ffi.c
+1126 silly gunzTarPerm extractEntry deps/libffi/src/avr32/ffitarget.h
+1127 silly gunzTarPerm extractEntry deps/libffi/src/avr32/sysv.S
+1128 silly gunzTarPerm extractEntry deps/libffi/src/closures.c
+1129 silly gunzTarPerm extractEntry deps/libffi/src/cris/ffi.c
+1130 silly gunzTarPerm extractEntry deps/libffi/src/cris/ffitarget.h
+1131 silly gunzTarPerm extractEntry deps/libffi/src/cris/sysv.S
+1132 silly gunzTarPerm extractEntry deps/libffi/src/debug.c
+1133 silly gunzTarPerm extractEntry deps/libffi/src/dlmalloc.c
+1134 silly gunzTarPerm extractEntry deps/libffi/src/frv/eabi.S
+1135 silly gunzTarPerm extractEntry deps/libffi/src/frv/ffi.c
+1136 silly gunzTarPerm extractEntry deps/libffi/src/frv/ffitarget.h
+1137 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ffi.c
+1138 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ffitarget.h
+1139 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ia64_flags.h
+1140 silly gunzTarPerm extractEntry deps/libffi/src/ia64/unix.S
+1141 silly gunzTarPerm extractEntry deps/libffi/src/java_raw_api.c
+1142 silly gunzTarPerm extractEntry deps/libffi/src/m32r/ffi.c
+1143 silly gunzTarPerm extractEntry deps/libffi/src/m32r/ffitarget.h
+1144 silly gunzTarPerm extractEntry deps/libffi/src/m32r/sysv.S
+1145 silly gunzTarPerm extractEntry deps/libffi/src/m68k/ffi.c
+1146 silly gunzTarPerm extractEntry deps/libffi/src/m68k/ffitarget.h
+1147 silly gunzTarPerm extractEntry deps/libffi/src/m68k/sysv.S
+1148 silly gunzTarPerm extractEntry deps/libffi/src/arm/ffi.c
+1149 silly gunzTarPerm extractEntry deps/libffi/src/arm/ffitarget.h
+1150 silly gunzTarPerm extractEntry deps/libffi/src/arm/gentramp.sh
+1151 silly gunzTarPerm extractEntry deps/libffi/src/arm/sysv.S
+1152 silly gunzTarPerm extractEntry deps/libffi/src/arm/trampoline.S
+1153 silly gunzTarPerm extractEntry deps/libffi/src/moxie/eabi.S
+1154 silly gunzTarPerm extractEntry deps/libffi/src/moxie/ffi.c
+1155 silly gunzTarPerm extractEntry deps/libffi/src/pa/ffi.c
+1156 silly gunzTarPerm extractEntry deps/libffi/src/pa/ffitarget.h
+1157 silly gunzTarPerm extractEntry deps/libffi/src/pa/hpux32.S
+1158 silly gunzTarPerm extractEntry deps/libffi/src/pa/linux.S
+1159 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffi_darwin.c
+1160 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/aix.S
+1161 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/asm.h
+1162 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/darwin.S
+1163 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/darwin_closure.S
+1164 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffi.c
+1165 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/aix_closure.S
+1166 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffitarget.h
+1167 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/linux64.S
+1168 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/linux64_closure.S
+1169 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ppc_closure.S
+1170 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/sysv.S
+1171 silly gunzTarPerm extractEntry deps/libffi/src/prep_cif.c
+1172 silly gunzTarPerm extractEntry deps/libffi/src/raw_api.c
+1173 silly gunzTarPerm extractEntry deps/libffi/src/s390/ffi.c
+1174 silly gunzTarPerm extractEntry deps/libffi/src/s390/ffitarget.h
+1175 silly gunzTarPerm extractEntry deps/libffi/src/s390/sysv.S
+1176 silly gunzTarPerm extractEntry deps/libffi/src/sh/ffi.c
+1177 silly gunzTarPerm extractEntry deps/libffi/src/sh/ffitarget.h
+1178 silly gunzTarPerm extractEntry deps/libffi/src/sh/sysv.S
+1179 silly gunzTarPerm extractEntry deps/libffi/src/sh64/ffi.c
+1180 silly gunzTarPerm extractEntry deps/libffi/src/sh64/ffitarget.h
+1181 silly gunzTarPerm extractEntry deps/libffi/src/sh64/sysv.S
+1182 silly gunzTarPerm extractEntry deps/libffi/src/sparc/ffi.c
+1183 silly gunzTarPerm extractEntry deps/libffi/src/sparc/ffitarget.h
+1184 silly gunzTarPerm extractEntry deps/libffi/src/sparc/v8.S
+1185 silly gunzTarPerm extractEntry deps/libffi/src/sparc/v9.S
+1186 silly gunzTarPerm extractEntry deps/libffi/src/types.c
+1187 silly gunzTarPerm extractEntry deps/libffi/src/x86/sysv.S
+1188 silly gunzTarPerm extractEntry deps/libffi/src/x86/darwin.S
+1189 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffi.c
+1190 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffi64.c
+1191 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffitarget.h
+1192 silly gunzTarPerm extractEntry deps/libffi/src/x86/freebsd.S
+1193 silly gunzTarPerm extractEntry deps/libffi/src/x86/darwin64.S
+1194 silly gunzTarPerm extractEntry deps/libffi/src/x86/unix64.S
+1195 silly gunzTarPerm extractEntry deps/libffi/src/x86/win32.S
+1196 silly gunzTarPerm extractEntry deps/libffi/src/x86/win32.asm
+1197 silly gunzTarPerm extractEntry deps/libffi/src/x86/win64.S
+1198 silly gunzTarPerm extractEntry deps/libffi/src/x86/win64.asm
+1199 silly gunzTarPerm extractEntry deps/libffi/test.c
+1200 silly gunzTarPerm extractEntry deps/libffi/testsuite/Makefile.am
+1201 silly gunzTarPerm extractEntry deps/libffi/testsuite/Makefile.in
+1202 silly gunzTarPerm extractEntry deps/libffi/testsuite/config/default.exp
+1203 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/libffi.exp
+1204 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/target-libpath.exp
+1205 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/wrapper.exp
+1206 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_ulonglong.c
+1207 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/a.out
+1208 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn0.c
+1209 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn1.c
+1210 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn2.c
+1211 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn3.c
+1212 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn4.c
+1213 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn5.c
+1214 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn6.c
+1215 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_loc_fn0.c
+1216 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_stdcall.c
+1217 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_thiscall.c
+1218 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_12byte.c
+1219 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_16byte.c
+1220 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_18byte.c
+1221 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_19byte.c
+1222 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_1_1byte.c
+1223 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_20byte.c
+1224 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_20byte1.c
+1225 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_24byte.c
+1226 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_2byte.c
+1227 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3_1byte.c
+1228 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3byte1.c
+1229 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3byte2.c
+1230 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_4_1byte.c
+1231 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_4byte.c
+1232 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_5_1_byte.c
+1233 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_5byte.c
+1234 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_64byte.c
+1235 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_6_1_byte.c
+1236 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_6byte.c
+1237 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_7_1_byte.c
+1238 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_7byte.c
+1239 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_8byte.c
+1240 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_9byte1.c
+1241 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_9byte2.c
+1242 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_double.c
+1243 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_float.c
+1244 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble.c
+1245 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble_split.c
+1246 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble_split2.c
+1247 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_pointer.c
+1248 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint16.c
+1249 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint32.c
+1250 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint64.c
+1251 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint16.c
+1252 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint32.c
+1253 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint64.c
+1254 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_dbls_struct.c
+1255 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_double.c
+1256 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_double_va.c
+1257 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_float.c
+1258 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_longdouble.c
+1259 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_longdouble_va.c
+1260 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_schar.c
+1261 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_sshort.c
+1262 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_sshortchar.c
+1263 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_uchar.c
+1264 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_ushort.c
+1265 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_ushortchar.c
+1266 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_pointer.c
+1267 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_pointer_stack.c
+1268 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_schar.c
+1269 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_sint.c
+1270 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_sshort.c
+1271 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_uchar.c
+1272 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_uint.c
+1273 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/call.exp
+1274 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_ushort.c
+1275 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/err_bad_abi.c
+1276 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/err_bad_typedef.c
+1277 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis1_win32.c
+1278 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis2_win32.c
+1279 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis3_win32.c
+1280 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/ffitest.h
+1281 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float.c
+1282 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float1.c
+1283 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float2.c
+1284 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float3.c
+1285 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float4.c
+1286 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float_va.c
+1287 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/huge_struct.c
+1288 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many.c
+1289 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many2.c
+1290 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many2_win32.c
+1291 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many_win32.c
+1292 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/negint.c
+1293 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct.c
+1294 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct1.c
+1295 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct10.c
+1296 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct2.c
+1297 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct3.c
+1298 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct4.c
+1299 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct5.c
+1300 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct6.c
+1301 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct7.c
+1302 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct8.c
+1303 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct9.c
+1304 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/problem1.c
+1305 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/promotion.c
+1306 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/pyobjc-tc.c
+1307 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl.c
+1308 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3/node_modules is being purged
+1309 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3/node_modules
+1310 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl1.c
+1311 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl2.c
+1312 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl.c
+1313 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl1.c
+1314 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl2.c
+1315 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl3.c
+1316 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ldl.c
+1317 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ll.c
+1318 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ll1.c
+1319 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_sc.c
+1320 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_sl.c
+1321 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_uc.c
+1322 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ul.c
+1323 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_large.c
+1324 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_large2.c
+1325 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_medium.c
+1326 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_medium2.c
+1327 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen.c
+1328 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen2_win32.c
+1329 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen_win32.c
+1330 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct1.c
+1331 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct1_win32.c
+1332 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct2.c
+1333 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct2_win32.c
+1334 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct3.c
+1335 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct4.c
+1336 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct5.c
+1337 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct6.c
+1338 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct7.c
+1339 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct8.c
+1340 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct9.c
+1341 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/testclosure.c
+1342 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/ffitestcxx.h
+1343 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/special.exp
+1344 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/unwindtest.cc
+1345 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/unwindtest_ffi_call.cc
+1346 silly gunzTarPerm extractEntry deps/libffi/doc/libffi.info
+1347 silly gunzTarPerm extractEntry deps/libffi/doc/libffi.texi
+1348 silly gunzTarPerm extractEntry deps/libffi/doc/stamp-vti
+1349 silly gunzTarPerm extractEntry deps/libffi/doc/version.texi
+1350 silly gunzTarPerm extractEntry deps/pthreads-win32/README
+1351 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_consistent.c
+1352 silly gunzTarPerm extractEntry deps/pthreads-win32/Bmakefile
+1353 silly gunzTarPerm extractEntry deps/pthreads-win32/CONTRIBUTORS
+1354 silly gunzTarPerm extractEntry deps/pthreads-win32/COPYING
+1355 silly gunzTarPerm extractEntry deps/pthreads-win32/COPYING.LIB
+1356 silly gunzTarPerm extractEntry deps/pthreads-win32/ChangeLog
+1357 silly gunzTarPerm extractEntry deps/pthreads-win32/FAQ
+1358 silly gunzTarPerm extractEntry deps/pthreads-win32/GNUmakefile
+1359 silly gunzTarPerm extractEntry deps/pthreads-win32/MAINTAINERS
+1360 silly gunzTarPerm extractEntry deps/pthreads-win32/Makefile
+1361 silly gunzTarPerm extractEntry deps/pthreads-win32/NEWS
+1362 silly gunzTarPerm extractEntry deps/pthreads-win32/Nmakefile
+1363 silly gunzTarPerm extractEntry deps/pthreads-win32/Nmakefile.tests
+1364 silly gunzTarPerm extractEntry deps/pthreads-win32/PROGRESS
+1365 silly gunzTarPerm extractEntry deps/pthreads-win32/ANNOUNCE
+1366 silly gunzTarPerm extractEntry deps/pthreads-win32/README.Borland
+1367 silly gunzTarPerm extractEntry deps/pthreads-win32/README.CV
+1368 silly gunzTarPerm extractEntry deps/pthreads-win32/README.NONPORTABLE
+1369 silly gunzTarPerm extractEntry deps/pthreads-win32/README.Watcom
+1370 silly gunzTarPerm extractEntry deps/pthreads-win32/README.WinCE
+1371 silly gunzTarPerm extractEntry deps/pthreads-win32/TODO
+1372 silly gunzTarPerm extractEntry deps/pthreads-win32/WinCE-PORT
+1373 silly gunzTarPerm extractEntry deps/pthreads-win32/attr.c
+1374 silly gunzTarPerm extractEntry deps/pthreads-win32/autostatic.c
+1375 silly gunzTarPerm extractEntry deps/pthreads-win32/barrier.c
+1376 silly gunzTarPerm extractEntry deps/pthreads-win32/builddmc.bat
+1377 silly gunzTarPerm extractEntry deps/pthreads-win32/cancel.c
+1378 silly gunzTarPerm extractEntry deps/pthreads-win32/cleanup.c
+1379 silly gunzTarPerm extractEntry deps/pthreads-win32/condvar.c
+1380 silly gunzTarPerm extractEntry deps/pthreads-win32/config.h
+1381 silly gunzTarPerm extractEntry deps/pthreads-win32/context.h
+1382 silly gunzTarPerm extractEntry deps/pthreads-win32/create.c
+1383 silly gunzTarPerm extractEntry deps/pthreads-win32/dll.c
+1384 silly gunzTarPerm extractEntry deps/pthreads-win32/errno.c
+1385 silly gunzTarPerm extractEntry deps/pthreads-win32/exit.c
+1386 silly gunzTarPerm extractEntry deps/pthreads-win32/fork.c
+1387 silly gunzTarPerm extractEntry deps/pthreads-win32/global.c
+1388 silly gunzTarPerm extractEntry deps/pthreads-win32/implement.h
+1389 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_mutexattr_init.html
+1390 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/ChangeLog
+1391 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/index.html
+1392 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthreadCancelableWait.html
+1393 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_attr_init.html
+1394 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_attr_setstackaddr.html
+1395 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_attr_setstacksize.html
+1396 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrier_init.html
+1397 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrier_wait.html
+1398 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrierattr_init.html
+1399 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrierattr_setpshared.html
+1400 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_cancel.html
+1401 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_cleanup_push.html
+1402 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_cond_init.html
+1403 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_condattr_init.html
+1404 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_condattr_setpshared.html
+1405 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_create.html
+1406 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_delay_np.html
+1407 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_detach.html
+1408 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_equal.html
+1409 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_exit.html
+1410 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_getunique_np.html
+1411 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_getw32threadhandle_np.html
+1412 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_join.html
+1413 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_key_create.html
+1414 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_kill.html
+1415 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_mutex_init.html
+1416 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/PortabilityIssues.html
+1417 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_mutexattr_setpshared.html
+1418 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_num_processors_np.html
+1419 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_once.html
+1420 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_init.html
+1421 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_rdlock.html
+1422 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_timedrdlock.html
+1423 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_timedwrlock.html
+1424 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_unlock.html
+1425 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_wrlock.html
+1426 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlockattr_init.html
+1427 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlockattr_setpshared.html
+1428 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_self.html
+1429 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setcancelstate.html
+1430 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setcanceltype.html
+1431 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setconcurrency.html
+1432 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setschedparam.html
+1433 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_spin_init.html
+1434 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_spin_lock.html
+1435 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_spin_unlock.html
+1436 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_timechange_handler_np.html
+1437 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_win32_attach_detach_np.html
+1438 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_win32_test_features_np.html
+1439 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_get_priority_max.html
+1440 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_getscheduler.html
+1441 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_setscheduler.html
+1442 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_yield.html
+1443 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sem_init.html
+1444 silly gunzTarPerm extractEntry deps/pthreads-win32/misc.c
+1445 silly gunzTarPerm extractEntry deps/pthreads-win32/mutex.c
+1446 silly gunzTarPerm extractEntry deps/pthreads-win32/need_errno.h
+1447 silly gunzTarPerm extractEntry deps/pthreads-win32/nonportable.c
+1448 silly gunzTarPerm extractEntry deps/pthreads-win32/private.c
+1449 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.c
+1450 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.dsp
+1451 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.dsw
+1452 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.gyp
+1453 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.h
+1454 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_destroy.c
+1455 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getdetachstate.c
+1456 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getinheritsched.c
+1457 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getschedparam.c
+1458 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getschedpolicy.c
+1459 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getscope.c
+1460 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getstackaddr.c
+1461 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getstacksize.c
+1462 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_init.c
+1463 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setdetachstate.c
+1464 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setinheritsched.c
+1465 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setschedparam.c
+1466 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setschedpolicy.c
+1467 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setscope.c
+1468 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setstackaddr.c
+1469 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setstacksize.c
+1470 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrier_destroy.c
+1471 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrier_init.c
+1472 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrier_wait.c
+1473 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_destroy.c
+1474 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_getpshared.c
+1475 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_init.c
+1476 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_setpshared.c
+1477 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cancel.c
+1478 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_destroy.c
+1479 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_init.c
+1480 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_signal.c
+1481 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_wait.c
+1482 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_destroy.c
+1483 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_getpshared.c
+1484 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_init.c
+1485 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_setpshared.c
+1486 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_delay_np.c
+1487 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_detach.c
+1488 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_equal.c
+1489 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_exit.c
+1490 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getconcurrency.c
+1491 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getschedparam.c
+1492 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getspecific.c
+1493 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getunique_np.c
+1494 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getw32threadhandle_np.c
+1495 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_join.c
+1496 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_key_create.c
+1497 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_key_delete.c
+1498 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_kill.c
+1499 silly gunzTarPerm extractEntry deps/pthreads-win32/BUGS
+1500 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_destroy.c
+1501 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_init.c
+1502 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_lock.c
+1503 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_timedlock.c
+1504 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_trylock.c
+1505 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_unlock.c
+1506 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_destroy.c
+1507 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_getkind_np.c
+1508 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_getpshared.c
+1509 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_getrobust.c
+1510 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_gettype.c
+1511 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_init.c
+1512 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_setkind_np.c
+1513 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_setpshared.c
+1514 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_setrobust.c
+1515 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_settype.c
+1516 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_num_processors_np.c
+1517 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_once.c
+1518 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_destroy.c
+1519 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_init.c
+1520 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_rdlock.c
+1521 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_timedrdlock.c
+1522 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_timedwrlock.c
+1523 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_tryrdlock.c
+1524 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_trywrlock.c
+1525 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_unlock.c
+1526 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_wrlock.c
+1527 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_destroy.c
+1528 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_getpshared.c
+1529 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_init.c
+1530 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_setpshared.c
+1531 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_self.c
+1532 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setcancelstate.c
+1533 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setcanceltype.c
+1534 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setconcurrency.c
+1535 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setschedparam.c
+1536 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setspecific.c
+1537 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_destroy.c
+1538 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_init.c
+1539 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_lock.c
+1540 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_trylock.c
+1541 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_unlock.c
+1542 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_testcancel.c
+1543 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_timechange_handler_np.c
+1544 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_win32_attach_detach_np.c
+1545 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_MCS_lock.c
+1546 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_callUserDestroyRoutines.c
+1547 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_calloc.c
+1548 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_cond_check_need_init.c
+1549 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_getprocessors.c
+1550 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_is_attr.c
+1551 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_mutex_check_need_init.c
+1552 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_new.c
+1553 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_processInitialize.c
+1554 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_processTerminate.c
+1555 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_relmillisecs.c
+1556 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_reuse.c
+1557 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_rwlock_cancelwrwait.c
+1558 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_rwlock_check_need_init.c
+1559 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_semwait.c
+1560 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_spinlock_check_need_init.c
+1561 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_threadDestroy.c
+1562 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_threadStart.c
+1563 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_throw.c
+1564 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_timespec.c
+1565 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_tkAssocCreate.c
+1566 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_tkAssocDestroy.c
+1567 silly gunzTarPerm extractEntry deps/pthreads-win32/rwlock.c
+1568 silly gunzTarPerm extractEntry deps/pthreads-win32/sched.c
+1569 silly gunzTarPerm extractEntry deps/pthreads-win32/sched.h
+1570 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_get_priority_max.c
+1571 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_get_priority_min.c
+1572 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_getscheduler.c
+1573 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_setscheduler.c
+1574 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_yield.c
+1575 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_close.c
+1576 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_destroy.c
+1577 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_getvalue.c
+1578 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_init.c
+1579 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_open.c
+1580 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_post.c
+1581 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_post_multiple.c
+1582 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_timedwait.c
+1583 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_trywait.c
+1584 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_unlink.c
+1585 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_wait.c
+1586 silly gunzTarPerm extractEntry deps/pthreads-win32/semaphore.c
+1587 silly gunzTarPerm extractEntry deps/pthreads-win32/semaphore.h
+1588 silly gunzTarPerm extractEntry deps/pthreads-win32/signal.c
+1589 silly gunzTarPerm extractEntry deps/pthreads-win32/spin.c
+1590 silly gunzTarPerm extractEntry deps/pthreads-win32/sync.c
+1591 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/README
+1592 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join3.c
+1593 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.dsp
+1594 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.dsw
+1595 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.plg
+1596 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.txt
+1597 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/GNUmakefile
+1598 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Bmakefile
+1599 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/README.BENCHTESTS
+1600 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.GC
+1601 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.GCE
+1602 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.VC
+1603 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.VCE
+1604 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.VSE
+1605 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Wmakefile
+1606 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier1.c
+1607 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier2.c
+1608 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier3.c
+1609 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier4.c
+1610 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier5.c
+1611 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier6.c
+1612 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchlib.c
+1613 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest.h
+1614 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest1.c
+1615 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest2.c
+1616 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest3.c
+1617 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest4.c
+1618 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest5.c
+1619 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel1.c
+1620 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel2.c
+1621 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel3.c
+1622 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel4.c
+1623 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel5.c
+1624 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel6a.c
+1625 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel6d.c
+1626 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel7.c
+1627 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel8.c
+1628 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel9.c
+1629 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup0.c
+1630 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup1.c
+1631 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup2.c
+1632 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup3.c
+1633 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar1.c
+1634 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar1_1.c
+1635 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar1_2.c
+1636 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar2.c
+1637 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar2_1.c
+1638 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3.c
+1639 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3_1.c
+1640 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3_2.c
+1641 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3_3.c
+1642 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar4.c
+1643 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar5.c
+1644 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar6.c
+1645 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar7.c
+1646 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar8.c
+1647 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar9.c
+1648 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/context1.c
+1649 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/count1.c
+1650 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/create1.c
+1651 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/create2.c
+1652 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/delay1.c
+1653 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/delay2.c
+1654 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/detach1.c
+1655 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/equal1.c
+1656 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/errno1.c
+1657 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exception1.c
+1658 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exception2.c
+1659 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exception3.c
+1660 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit1.c
+1661 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit2.c
+1662 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit3.c
+1663 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit4.c
+1664 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit5.c
+1665 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/eyal1.c
+1666 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/inherit1.c
+1667 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join0.c
+1668 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join1.c
+1669 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join2.c
+1670 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/ChangeLog
+1671 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/kill1.c
+1672 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/loadfree.c
+1673 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1.c
+1674 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1e.c
+1675 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1n.c
+1676 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1r.c
+1677 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex2.c
+1678 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex2e.c
+1679 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex2r.c
+1680 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex3.c
+1681 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex3e.c
+1682 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex3r.c
+1683 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex4.c
+1684 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex5.c
+1685 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6.c
+1686 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6e.c
+1687 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6es.c
+1688 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6n.c
+1689 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6r.c
+1690 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6rs.c
+1691 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6s.c
+1692 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7.c
+1693 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7e.c
+1694 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7n.c
+1695 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7r.c
+1696 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8.c
+1697 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8e.c
+1698 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8n.c
+1699 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8r.c
+1700 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once1.c
+1701 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once2.c
+1702 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once3.c
+1703 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once4.c
+1704 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/openmp1.c
+1705 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/priority1.c
+1706 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/priority2.c
+1707 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/reuse1.c
+1708 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/reuse2.c
+1709 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust1.c
+1710 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust2.c
+1711 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust3.c
+1712 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust4.c
+1713 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust5.c
+1714 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock1.c
+1715 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock2.c
+1716 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock2_t.c
+1717 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock3.c
+1718 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock3_t.c
+1719 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock4.c
+1720 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock4_t.c
+1721 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock5.c
+1722 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock5_t.c
+1723 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock6.c
+1724 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock6_t.c
+1725 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock6_t2.c
+1726 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock7.c
+1727 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock8.c
+1728 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/self1.c
+1729 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/self2.c
+1730 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore1.c
+1731 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore2.c
+1732 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore3.c
+1733 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore4.c
+1734 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore4t.c
+1735 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore5.c
+1736 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/sequence1.c
+1737 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/sizes.c
+1738 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin1.c
+1739 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin2.c
+1740 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin3.c
+1741 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin4.c
+1742 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/stress1.c
+1743 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/test.h
+1744 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tryentercs.c
+1745 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tryentercs2.c
+1746 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tsd1.c
+1747 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tsd2.c
+1748 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/valid1.c
+1749 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/valid2.c
+1750 silly gunzTarPerm extractEntry deps/pthreads-win32/tsd.c
+1751 silly gunzTarPerm extractEntry deps/pthreads-win32/version.rc
+1752 silly gunzTarPerm extractEntry deps/pthreads-win32/w32_CancelableWait.c
+1753 silly gunzTarPerm extractEntry History.md
+1754 silly gunzTarPerm extractEntry example/abs.js
+1755 silly gunzTarPerm extractEntry example/sqlite.js
+1756 silly gunzTarPerm extractEntry example/factorial/README
+1757 silly gunzTarPerm extractEntry example/factorial/factorial.js
+1758 silly gunzTarPerm extractEntry example/factorial/factorial.c
+1759 silly gunzTarPerm extractEntry lib/_foreign_function.js
+1760 silly gunzTarPerm extractEntry lib/cif.js
+1761 silly gunzTarPerm extractEntry lib/cif_var.js
+1762 silly gunzTarPerm extractEntry lib/dynamic_library.js
+1763 silly gunzTarPerm extractEntry lib/callback.js
+1764 silly gunzTarPerm extractEntry lib/ffi.js
+1765 silly gunzTarPerm extractEntry lib/foreign_function.js
+1766 silly gunzTarPerm extractEntry lib/foreign_function_var.js
+1767 silly gunzTarPerm extractEntry lib/function.js
+1768 silly gunzTarPerm extractEntry lib/library.js
+1769 silly gunzTarPerm extractEntry lib/bindings.js
+1770 silly gunzTarPerm extractEntry lib/type.js
+1771 silly gunzTarPerm extractEntry lib/errno.js
+1772 silly gunzTarPerm extractEntry .jshintrc
+1773 silly gunzTarPerm extractEntry src/callback_info.cc
+1774 silly gunzTarPerm extractEntry src/ffi.cc
+1775 silly gunzTarPerm extractEntry src/ffi.h
+1776 silly gunzTarPerm extractEntry src/threaded_callback_invokation.cc
+1777 silly gunzTarPerm extractEntry test/variadic.js
+1778 silly gunzTarPerm extractEntry test/cif.js
+1779 silly gunzTarPerm extractEntry test/dynamic_library.js
+1780 silly gunzTarPerm extractEntry test/errno.js
+1781 silly gunzTarPerm extractEntry test/types.js
+1782 silly gunzTarPerm extractEntry test/callback.js
+1783 silly gunzTarPerm extractEntry test/function.js
+1784 silly gunzTarPerm extractEntry test/library.js
+1785 silly gunzTarPerm extractEntry test/objc.js
+1786 silly gunzTarPerm extractEntry test/foreign_function.js
+1787 silly gunzTarPerm extractEntry test/ffi_tests.cc
+1788 silly gunzTarPerm extractEntry test/binding.gyp
+1789 silly gunzTarPerm extractEntry .travis.yml
+1790 silly gunzTarPerm extractEntry doc/benchmark.js
+1791 silly gunzTarPerm extractEntry doc/benchmark.txt
+1792 silly gentlyRm /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599/node_modules is being purged
+1793 verbose gentlyRm don't care about contents; nuking /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599/node_modules
+1794 silly doParallel preinstall 13
+1795 silly preinstall bindings@1.2.1 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68
+1796 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+1797 silly preinstall nan@2.4.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb
+1798 info lifecycle nan@2.4.0~preinstall: nan@2.4.0
+1799 silly preinstall ref@1.3.2 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397
+1800 info lifecycle ref@1.3.2~preinstall: ref@1.3.2
+1801 silly preinstall ref-struct@1.1.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64
+1802 info lifecycle ref-struct@1.1.0~preinstall: ref-struct@1.1.0
+1803 silly preinstall ffi@1.2.5 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599
+1804 info lifecycle ffi@1.2.5~preinstall: ffi@1.2.5
+1805 silly preinstall cors@2.8.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/cors-b644f856
+1806 info lifecycle cors@2.8.0~preinstall: cors@2.8.0
+1807 silly preinstall exec-sync@0.1.6 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/exec-sync-eccf3bd2
+1808 info lifecycle exec-sync@0.1.6~preinstall: exec-sync@0.1.6
+1809 silly preinstall express@4.14.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/express-e7a2ab8d
+1810 info lifecycle express@4.14.0~preinstall: express@4.14.0
+1811 silly preinstall mysql@2.11.1 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/mysql-f551a782
+1812 info lifecycle mysql@2.11.1~preinstall: mysql@2.11.1
+1813 silly preinstall node@0.0.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-6a53be80
+1814 info lifecycle node@0.0.0~preinstall: node@0.0.0
+1815 silly preinstall node-gyp@3.4.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/node-gyp-a56ce8a3
+1816 info lifecycle node-gyp@3.4.0~preinstall: node-gyp@3.4.0
+1817 silly preinstall rebuild@0.1.2 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/rebuild-42139710
+1818 info lifecycle rebuild@0.1.2~preinstall: rebuild@0.1.2
+1819 silly preinstall sync-exec@0.6.2 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/sync-exec-7bf561fd
+1820 info lifecycle sync-exec@0.6.2~preinstall: sync-exec@0.6.2
+1821 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+1822 silly lifecycle nan@2.4.0~preinstall: no script for preinstall, continuing
+1823 silly lifecycle ref@1.3.2~preinstall: no script for preinstall, continuing
+1824 silly lifecycle ref-struct@1.1.0~preinstall: no script for preinstall, continuing
+1825 silly lifecycle ffi@1.2.5~preinstall: no script for preinstall, continuing
+1826 silly lifecycle cors@2.8.0~preinstall: no script for preinstall, continuing
+1827 silly lifecycle exec-sync@0.1.6~preinstall: no script for preinstall, continuing
+1828 silly lifecycle express@4.14.0~preinstall: no script for preinstall, continuing
+1829 silly lifecycle mysql@2.11.1~preinstall: no script for preinstall, continuing
+1830 silly lifecycle node@0.0.0~preinstall: no script for preinstall, continuing
+1831 silly lifecycle node-gyp@3.4.0~preinstall: no script for preinstall, continuing
+1832 silly lifecycle rebuild@0.1.2~preinstall: no script for preinstall, continuing
+1833 silly lifecycle sync-exec@0.6.2~preinstall: no script for preinstall, continuing
+1834 silly doReverseSerial remove 0
+1835 silly doSerial move 0
+1836 silly doSerial finalize 13
+1837 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/bindings
+1838 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/nan
+1839 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/ref
+1840 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/ref-struct
+1841 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/ffi
+1842 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/cors
+1843 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/exec-sync
+1844 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/express
+1845 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/mysql
+1846 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/node
+1847 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/node-gyp
+1848 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/rebuild
+1849 silly finalize /Users/exceed/Desktop/cu_innovation_hub/node_modules/sync-exec
+1850 silly doSerial build 13
+1851 silly build bindings@1.2.1
+1852 info linkStuff bindings@1.2.1
+1853 silly linkStuff bindings@1.2.1 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1854 verbose linkBins bindings@1.2.1
+1855 verbose linkMans bindings@1.2.1
+1856 silly build nan@2.4.0
+1857 info linkStuff nan@2.4.0
+1858 silly linkStuff nan@2.4.0 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1859 verbose linkBins nan@2.4.0
+1860 verbose linkMans nan@2.4.0
+1861 silly build ref@1.3.2
+1862 info linkStuff ref@1.3.2
+1863 silly linkStuff ref@1.3.2 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1864 verbose linkBins ref@1.3.2
+1865 verbose linkMans ref@1.3.2
+1866 silly build ref-struct@1.1.0
+1867 info linkStuff ref-struct@1.1.0
+1868 silly linkStuff ref-struct@1.1.0 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1869 verbose linkBins ref-struct@1.1.0
+1870 verbose linkMans ref-struct@1.1.0
+1871 silly build ffi@1.2.5
+1872 info linkStuff ffi@1.2.5
+1873 silly linkStuff ffi@1.2.5 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1874 verbose linkBins ffi@1.2.5
+1875 verbose linkMans ffi@1.2.5
+1876 silly build cors@2.8.0
+1877 info linkStuff cors@2.8.0
+1878 silly linkStuff cors@2.8.0 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1879 verbose linkBins cors@2.8.0
+1880 verbose linkMans cors@2.8.0
+1881 silly build exec-sync@0.1.6
+1882 info linkStuff exec-sync@0.1.6
+1883 silly linkStuff exec-sync@0.1.6 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1884 verbose linkBins exec-sync@0.1.6
+1885 verbose linkMans exec-sync@0.1.6
+1886 silly build express@4.14.0
+1887 info linkStuff express@4.14.0
+1888 silly linkStuff express@4.14.0 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1889 verbose linkBins express@4.14.0
+1890 verbose linkMans express@4.14.0
+1891 silly build mysql@2.11.1
+1892 info linkStuff mysql@2.11.1
+1893 silly linkStuff mysql@2.11.1 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1894 verbose linkBins mysql@2.11.1
+1895 verbose linkMans mysql@2.11.1
+1896 silly build node@0.0.0
+1897 info linkStuff node@0.0.0
+1898 silly linkStuff node@0.0.0 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1899 verbose linkBins node@0.0.0
+1900 verbose linkMans node@0.0.0
+1901 silly build node-gyp@3.4.0
+1902 info linkStuff node-gyp@3.4.0
+1903 silly linkStuff node-gyp@3.4.0 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1904 warn prefer global node-gyp@3.4.0 should be installed with -g
+1905 verbose linkBins node-gyp@3.4.0
+1906 verbose link bins [ { 'node-gyp': './bin/node-gyp.js' },
+1906 verbose link bins   '/Users/exceed/Desktop/cu_innovation_hub/node_modules/.bin',
+1906 verbose link bins   false ]
+1907 verbose linkMans node-gyp@3.4.0
+1908 silly build rebuild@0.1.2
+1909 info linkStuff rebuild@0.1.2
+1910 silly linkStuff rebuild@0.1.2 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1911 verbose linkBins rebuild@0.1.2
+1912 verbose link bins [ { rebuild: './cli.js' },
+1912 verbose link bins   '/Users/exceed/Desktop/cu_innovation_hub/node_modules/.bin',
+1912 verbose link bins   false ]
+1913 verbose linkMans rebuild@0.1.2
+1914 silly build sync-exec@0.6.2
+1915 info linkStuff sync-exec@0.6.2
+1916 silly linkStuff sync-exec@0.6.2 has /Users/exceed/Desktop/cu_innovation_hub/node_modules as its parent node_modules
+1917 verbose linkBins sync-exec@0.6.2
+1918 verbose linkMans sync-exec@0.6.2
+1919 silly doSerial global-link 0
+1920 silly doParallel update-linked 0
+1921 silly doSerial install 13
+1922 silly install bindings@1.2.1 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/bindings-0f864e68
+1923 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+1924 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+1925 silly install nan@2.4.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/nan-66c128fb
+1926 info lifecycle nan@2.4.0~install: nan@2.4.0
+1927 silly lifecycle nan@2.4.0~install: no script for install, continuing
+1928 silly install ref@1.3.2 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-f3bc0397
+1929 info lifecycle ref@1.3.2~install: ref@1.3.2
+1930 verbose lifecycle ref@1.3.2~install: unsafe-perm in lifecycle true
+1931 verbose lifecycle ref@1.3.2~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/exceed/Desktop/cu_innovation_hub/node_modules/ref/node_modules/.bin:/Users/exceed/Desktop/cu_innovation_hub/node_modules/.bin:/usr/local/bin:/Users/exceed/anaconda/bin:/usr/local/mysql/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/usr/local/mysql/bin
+1932 verbose lifecycle ref@1.3.2~install: CWD: /Users/exceed/Desktop/cu_innovation_hub/node_modules/ref
+1933 silly lifecycle ref@1.3.2~install: Args: [ '-c', 'node-gyp rebuild' ]
+1934 silly lifecycle ref@1.3.2~install: Returned: code: 0  signal: null
+1935 silly install ref-struct@1.1.0 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ref-struct-dd210d64
+1936 info lifecycle ref-struct@1.1.0~install: ref-struct@1.1.0
+1937 silly lifecycle ref-struct@1.1.0~install: no script for install, continuing
+1938 silly install ffi@1.2.5 /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging/ffi-e33c3599
+1939 info lifecycle ffi@1.2.5~install: ffi@1.2.5
+1940 verbose lifecycle ffi@1.2.5~install: unsafe-perm in lifecycle true
+1941 verbose lifecycle ffi@1.2.5~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/exceed/Desktop/cu_innovation_hub/node_modules/ffi/node_modules/.bin:/Users/exceed/Desktop/cu_innovation_hub/node_modules/.bin:/usr/local/bin:/Users/exceed/anaconda/bin:/usr/local/mysql/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/usr/local/mysql/bin
+1942 verbose lifecycle ffi@1.2.5~install: CWD: /Users/exceed/Desktop/cu_innovation_hub/node_modules/ffi
+1943 silly lifecycle ffi@1.2.5~install: Args: [ '-c', 'node-gyp rebuild' ]
+1944 silly lifecycle ffi@1.2.5~install: Returned: code: 1  signal: null
+1945 info lifecycle ffi@1.2.5~install: Failed to exec install script
+1946 verbose unlock done using /Users/exceed/.npm/_locks/staging-875a7df9a2ca746d.lock for /Users/exceed/Desktop/cu_innovation_hub/node_modules/.staging
+1947 silly rollbackFailedOptional Starting
+1948 silly rollbackFailedOptional Finishing
+1949 silly runTopLevelLifecycles Starting
+1950 silly runTopLevelLifecycles Finishing
+1951 silly install printInstalled
+1952 verbose stack Error: ffi@1.2.5 install: `node-gyp rebuild`
+1952 verbose stack Exit status 1
+1952 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:244:16)
+1952 verbose stack     at emitTwo (events.js:87:13)
+1952 verbose stack     at EventEmitter.emit (events.js:172:7)
+1952 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+1952 verbose stack     at emitTwo (events.js:87:13)
+1952 verbose stack     at ChildProcess.emit (events.js:172:7)
+1952 verbose stack     at maybeClose (internal/child_process.js:827:16)
+1952 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+1953 verbose pkgid ffi@1.2.5
+1954 verbose cwd /Users/exceed/Desktop/cu_innovation_hub
+1955 error Darwin 15.6.0
+1956 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "exec-sync"
+1957 error node v4.4.2
+1958 error npm  v3.8.7
+1959 error code ELIFECYCLE
+1960 error ffi@1.2.5 install: `node-gyp rebuild`
+1960 error Exit status 1
+1961 error Failed at the ffi@1.2.5 install script 'node-gyp rebuild'.
+1961 error Make sure you have the latest version of node.js and npm installed.
+1961 error If you do, this is most likely a problem with the ffi package,
+1961 error not with npm itself.
+1961 error Tell the author that this fails on your system:
+1961 error     node-gyp rebuild
+1961 error You can get information on how to open an issue for this project with:
+1961 error     npm bugs ffi
+1961 error Or if that isn't available, you can get their info via:
+1961 error     npm owner ls ffi
+1961 error There is likely additional logging output above.
+1962 verbose exit [ 1, true ]

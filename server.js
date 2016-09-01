@@ -3,16 +3,17 @@ var app = express();
 var router = express.Router();
 var path = __dirname + '/web_ject/' ;
 var cors = require('cors')();
+var exec = require('sync-exec');
 
 var mysql      = require('mysql');
-var connection = mysql.createConnection({
-  host     : 'ap-cdbr-azure-southeast-b.cloudapp.net',
-  user     : 'b9424e520cb49f',
-  password : '0d73f97c',
-  database : 'innovation'
-});
+// var connection = mysql.createConnection({
+//   host     : 'ap-cdbr-azure-southeast-b.cloudapp.net',
+//   user     : 'b9424e520cb49f',
+//   password : '0d73f97c',
+//   database : 'innovation'
+// });
 
-connection.connect();
+// connection.connect();
 
 
 app.use(cors);
@@ -107,6 +108,10 @@ router.get( '/home', function ( req, res ) {
   console.log(path+'index.html');
   // console.log(research);
 	res.sendFile(path+'index.html');
+});
+
+router.get( '/pyexec', function ( req, res ) {
+  res.sendFile(path+'tf.html');
 });
 
 router.get( '/menu', function ( req, res ) {
